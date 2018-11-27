@@ -1,0 +1,299 @@
+<html>
+<head>
+  <title>Remote diagnostics and control</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="sbadmin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MetisMenu CSS -->
+  <link href="sbadmin/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="sbadmin/dist/css/sb-admin-2.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+
+  <link rel="stylesheet" type="text/css" href="loadingbar/dist/loading-bar.css"/>
+
+  <style type="text/css">
+    .ldBar-label:after {
+      content: "USD"
+      color: #aaa;
+      margin-left: 5px;
+      font-family: courier new;
+      font-size: 0.7em;
+      font-weight: 200;
+    }
+  </style>
+</head>
+
+<!-- <body  onload="connectionCreate()"> -->
+
+<body>
+
+  <div class="container">
+   <div class="wrapper" >
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top  navbar-expand-sm bg-primary navbar-dark" role="navigation" style="background-color: #3B3C36; border:0px;">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"> Remote Diagnostics and control</a>
+        <i class="fa fa-automobile fa-3x"></i>
+      </div>
+    </nav>
+    <!-- /.navbar-header -->
+
+    <!-- <div id="page-wrapper" style="min-height:222px;">  -->
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header">Dashboard</h1>
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
+
+    <!-- Connection panel -->
+    <div class="row">
+
+     <div class="col-lg-8">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <span id="connectionStatus" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" class=""> connectionStatus - Disconnected</span>
+        </div>
+
+        <div id="collapseOne" class="panel-collapse collapse in" aria-expanded="true" style="">
+
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-12" class="col-lg-1">
+                <div  id="serverCollapse">
+                  <form>
+                    <div class="row">
+
+                      <div class="col-lg-1">
+                        <div class="form-group">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                          <label for="hostInput">Host</label>
+                          <input type="text" class="form-control" id="hostInput" value="10.223.74.176">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-2">
+                        <div class="form-group">
+                          <label for="portInput">Port</label>
+                          <input type="text" class="form-control" id="portInput" value="9001">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3">
+                        <div class="form-group">
+                          <label for="clientIdInput">Client ID</label>
+                          <input type="text" class="form-control" id="clientIdInput" value="javascript-client">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+
+                     <div class="col-lg-1">
+                      <div class="form-group">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div class="form-group">
+                        <label for="userInput">Username</label>
+                        <input type="text" class="form-control" id="userInput">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div class="form-group">
+                        <label for="passInput">Password</label>
+                        <input type="password" class="form-control" id="passInput">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <label for="clientConnectButton"></label>
+                        <a id="clientConnectButton" class="btn btn-default btn-sm btn-block" onclick="connectionToggle();">Connect</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- End of collapee -->
+
+      <div class="panel-footer">
+      </div>
+
+    </div>
+  </div>
+
+<!--  button panel
+<div class="col-lg-3">
+  <div class="panel panel-Info">
+    <div class="panel-heading">
+      <span data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"  class=""> Start / Stop Dashboard</span>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" aria-expanded="true" style="">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-lg-12">
+            <button id="startButton" type="button" class="btn btn-success btn-lg btn-block "  onclick="start();" disabled >Start</button>
+            <button id="stopButton" type="button" class="btn btn-danger btn-lg  btn-block "  onclick="start();" disabled>Stop</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  End of col-lg-3-->
+
+</div>   <!-- End of connection panel-->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Node List</h4>
+      </div>
+      <div class="modal-body">
+        <p id = listofnodes ></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-8">
+   <div class="panel panel-Info">
+     <div class="panel-heading">
+       <span data-toggle="collapse" data-parent="#accordion" href="#collapseMemory" aria-expanded="true" class="">Memory Status</span>
+     </div>
+     <div id="collapseMemory" class="panel-collapse collapse in" aria-expanded="true" style="">
+      <div class="panel-body" id="memoryCollapse">
+       <div class="row">
+        <div class="col-lg-12"> 
+         <div id="currentProgress"></div>
+       </div>
+     </div>
+   </div> 
+ </div>
+</div>
+</div>
+
+<div class="col-lg-2 ">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <div class="row">
+        <div class="col-xs-4">
+          <i class="fa fa-tasks fa-2x"></i>
+        </div>
+        <div class="col-xs-8 text-center">
+          <div class="huge">0</div>
+          <div>Nodes Running !</div>
+        </div>
+      </div>
+    </div>
+    <a  data-toggle="modal" data-target="#myModal">
+      <div class="panel-footer">
+        <span class="pull-left">View Details</span>
+        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+        <div class="clearfix"></div>
+      </div>
+    </a>
+  </div>
+</div>
+
+</div>
+
+<div id="container"></div>
+
+<div class="row">
+  <!-- node list panel -->
+  <div class="col-lg-8">
+    <div class="panel panel-Info">
+      <div class="panel-heading">
+        <span data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="true" class="">Node details</span>
+      </div>
+      <div id="collapseSeven" class="panel-collapse collapse in" aria-expanded="true" style="">
+       <div class="panel-body"  id="nodedetailsCollapse">
+         <div class="col-sm-12">
+          <table width="100%" class="table table-striped table-hover table-bordered dataTable no-footer dtr-inline" id="nodedetailsMessageTable" role="grid" style="">
+            <thead>
+              <tr>
+                <th>node</th>
+                <th>host</th>
+                <th>active </th>
+                <th>Topics</th>
+                <th>Hz</th>
+                <th>Min FPS</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--  </div>    End ofpage-wrapper--> 
+
+</div>
+</div>
+
+<!-- jQuery -->
+<script src="sbadmin/vendor/jquery/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+  });
+
+
+</script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="sbadmin/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="sbadmin/vendor/metisMenu/metisMenu.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="sbadmin/dist/js/sb-admin-2.js"></script>
+
+<script src="config.js"></script>
+
+
+<!-- Source Paho MQTT Client-->
+<script src="../mqttjs/src/browserMqtt.js"></script>
+<!--<script src="../src/paho-mqtt.js"></script>-->
+
+<!-- Utility Javascript -->
+
+<script src="app.js"></script>
+
+<script src="loadingbar/dist/loading-bar.js"></script>
+
+</body>
+</html>

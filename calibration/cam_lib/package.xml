@@ -1,0 +1,18 @@
+<package>
+  <name>cam_lib</name>
+  <version>0.3.4</version>
+  <description>library for camera calibartion</description>
+ 
+  <maintainer email="venkata.ram.prasadx.vanguri@intel.com">vv ram prasad</maintainer>
+  <author email="venkata.ram.prasadx.vanguri@intel.com">vv ram prasad</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>roscpp</run_depend> 
+
+  
+</package>

@@ -1,0 +1,4 @@
+CAN ros node which reads can messages from the can hardware and publishes the messages.
+
+Pre-requisites:
+Download and install linux sdk version of Kvaser software from : https://www.kvaser.com/linux-drivers-and-sdk/

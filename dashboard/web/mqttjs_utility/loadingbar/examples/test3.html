@@ -1,0 +1,68 @@
+
+<html>
+<head>
+<script src="https://loadingio.github.io/loading-bar/dist/loading-bar.js"></script>
+<link rel="stylesheet" type="text/css" href="https://loadingio.github.io/loading-bar/dist/loading-bar.css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<style type="text/css">
+
+  .ldBar-label:after {
+    content: "USD"
+    color: red;
+    margin-left: 5px;
+    font-family: courier new;
+    font-size: 0.7em;
+    font-weight: 200;
+  }
+</style>
+
+</head>
+<div id="myItem1" style="width:30%;height:20%;margin:auto"></div>
+</br>
+<div id="myItem2" style="width:30%;height:20%;margin:auto"></div>
+
+</br>
+<button onclick="move()">move</button>
+
+
+<script>
+
+
+
+var bar1 = new ldBar("#myItem1", {
+ "stroke": '#00f',
+ "stroke-width": 10,
+ "preset": "stripe",
+ "value":10,
+ "fill-dir":"ltr"
+});
+
+$('#myItem1').addClass('label-center');
+$("#myItem1").css({"width":"30%", "height":"20%", "margin":"auto"});
+$('#myItem1').append('<p id="blurb"></p>');
+$("#blurb").text("Text message");
+$("#blurb").css({"text-align":"center", "color":"green", "text-decoration": "underline", " text-transform": "uppercase"});
+
+var bar2 = new ldBar("#myItem2", {
+ "stroke": '#00f',
+ "stroke-width": 10,
+ "preset": "stripe",
+ "value":50,
+ "fill-dir":"ltr"
+});
+
+$('#myItem2').addClass('label-center');
+$("#myItem2").css({"width":"30%", "height":"20%", "margin":"auto"});
+
+
+
+  function move()
+  {
+  	var bar3 = document.getElementById('myItem1').ldBar;
+    bar3.set(50);
+    
+  }
+</script>
+
+</html>

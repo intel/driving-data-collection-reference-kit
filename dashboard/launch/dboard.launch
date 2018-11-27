@@ -1,0 +1,6 @@
+<launch>
+  <node name="dashboard" pkg="linux_dashboard" type="dashboard" output="screen" >
+    <param name="path1" value="/media/ark1/dump1/dev1/" />
+    <param name="path2" value="/media/ark1/dump0/dev1/" />
+     </node>
+</launch>

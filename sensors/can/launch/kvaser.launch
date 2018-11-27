@@ -1,0 +1,33 @@
+<launch>
+  <!-- Actuator package, node is of type CAN interface. There can be mutiple
+  interfaces as well. But -->
+  <node pkg="can_node" name="can" type="can" output="screen" >
+   
+    <!-- Baud rate for the can interface, in kbps, on the car side. We have to set the baud rate according to
+    the car can baud rate. This is dependent on the car SGU unit, which takes CAN autonomous commands.
+    Value 500 means 500kbps
+    -->
+    <param name="baud_rate" type="int" value="500"/>
+
+    <!-- CAN status frequency in Hz. Different car gives the status messages at different frequency
+    These status messages will be used by path planning module to update command messages.
+    -->
+    <param name="status_freq" type="double" value="100"/>
+
+    
+    <!-- CAN hardware. There can be a CAN hardware in SOC and directly we can access it using the can driver
+    or there can be a separate USB to can converter or something like that, which is accessible thorugh
+    specific SDK of the hardware Valid values are driver/sdk based on what type of CAN hardware is used
+    on the board.-->
+    <param name="can_interface_type" type="string" value="SDK" />
+    <!-- serial no of the can hardware -->
+    <param name="serial_no" type="int" value="11577" />
+    <!-- channel no of the can hardware -->
+    <param name="channel_no" type="int" value="0" />
+    <!-- If CAN interface type is not of driver type, need to specify which SDK to use as a CAN interface.
+    Currently we support canmate type and Kvaser Type of USB to can converter. Additional can be added by extending
+    the class.
+    -->
+    <param name="can_sdk_type" type="string" value="kvaser" />
+  </node>
+</launch>

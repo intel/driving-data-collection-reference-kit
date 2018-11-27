@@ -1,0 +1,25 @@
+Linux client:
+-------------
+Dashboard linux client fetches all information about ros nodes in data collection ref kit and publishes it to web client for diagnostics.
+
+*Steps to run*
+  - Check whether mosquitto broker is running or not. ( systemctl status mosquitto.service)
+  - If required add the user name and password for client authentication in MQTT broker. (Should update in the code too).
+  - roslaunch linux_dashboard dboard.launch
+  - The process waits for connection with the web client.
+  - If the dashboard is running on two different hardware boards (connected through ethernet), 
+    Make sure to change the node name, because ROS 	does not support running two nodes with same name.
+
+Web client: 
+----------- 
+Dashboard web client is used for Diagnostics of driving data collection ref kit. It displays information such as,
+  - List of nodes running, Its internal topics and publishing rates.
+	- Details of the SSD connected and its memory percentage.
+	- Whether the nodes are running as expected or not.
+  
+*Steps to run*
+  - Please open index.html (.web/mqttjs_utilty/index.html) in any browser for web application.
+  - Connect with the broker by giving all the details required.
+  - This will automatically start communication with the linux dashboard clients..
+
+
