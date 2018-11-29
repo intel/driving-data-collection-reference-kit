@@ -1,14 +1,10 @@
 # Driving Data Collection Reference kit
 
-Software tools that can be used for collecting automotive driving data.
-
-To learn about design considerations, read <TBD> . Also a typical system implemented with these guidelines would look like this.
-
-Tools are available to help in extrinsic calibration of cameras and LIDARs. Check out calibration/
+Software tools that can be used for collecting automotive driving data. Tools are available to help in extrinsic calibration of cameras and LIDARs.
 
 ## Requisites
 
-#### Hardware
+### Hardware
 
 - Intel Core i5 7th Generation or above 
 - 16 GB RAM
@@ -20,7 +16,11 @@ Tools are available to help in extrinsic calibration of cameras and LIDARs. Chec
 - Ethernet Hub (Incase of using more than one host)
 - Powersupply
 
-#### Software
+#### Typical Setup
+
+A typical system implemented with these guidelines and sooftware would look like this :
+
+### Software
 
 - [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
 - [ROS Kinetic](http://wiki.ros.org/kinetic)
@@ -119,8 +119,19 @@ rosrecord <list of topics>
 consolidate.py meta.bag
 ```
 
+# Design Considerations
+
+To learn about design considerations, read [docs/design.md](docs/design.md) . 
+
+
+
+
 # Known Issues / Limitations
 - Only USB cameras are supported as of now.
 - Data from sensors are not tightly synchronised. This needs an external trigger (todo).
 - Second stage processing takes longer time because of sequential writes for ROS bag. 
+
+# LICENSE
+
+BSD-3-Clause [LICENSE]
 
