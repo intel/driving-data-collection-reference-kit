@@ -1,6 +1,10 @@
 # Driving Data Collection Reference kit
 
-Software tools that can be used for collecting automotive driving data. Tools are available to help in extrinsic calibration of cameras and LIDARs.
+Software tools that can be used for collecting automotive driving data from cameras, LIDARS and CAN. Tools are available to help in extrinsic calibration of cameras and LIDARs.
+
+For technical details, please refer to:
+
+Johnny Jacob, Pankaj Rabha, **"Driving data collection framework using low cost hardware"** , Autonue Workshop, European Conference on Computer Vision (ECCV) 2018, [http://cvit.iiit.ac.in/autonue2018/](http://cvit.iiit.ac.in/autonue2018/) 
 
 ## Requisites
 
@@ -133,5 +137,5 @@ To learn about design considerations, read [docs/design.md](docs/design.md) .
 
 # LICENSE
 
-BSD-3-Clause [LICENSE]
+BSD-3-Clause
 
