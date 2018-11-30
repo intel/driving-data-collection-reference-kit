@@ -4,7 +4,7 @@ Software tools that can be used for collecting automotive driving data from came
 
 For technical details, please refer to:
 
-Johnny Jacob, Pankaj Rabha, **"Driving data collection framework using low cost hardware"** , Autonue Workshop, European Conference on Computer Vision (ECCV) 2018, [http://cvit.iiit.ac.in/autonue2018/](http://cvit.iiit.ac.in/autonue2018/) 
+[Johnny Jacob](http://orcid.org/0000-0002-4621-4237), [Pankaj Rabha](http://orcid.org/0000-0003-4477-0464), **"Driving data collection framework using low cost hardware"** , Autonue Workshop, European Conference on Computer Vision (ECCV) 2018, [http://cvit.iiit.ac.in/autonue2018/](http://cvit.iiit.ac.in/autonue2018/) 
 
 ## Requisites
 
