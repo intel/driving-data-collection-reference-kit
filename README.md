@@ -24,6 +24,9 @@ For technical details, please refer to:
 
 A typical system implemented with these guidelines and software would look like this :
 
+![Typical Hardware Setup](https://github.com/intel/driving-data-collection-reference-kit/blob/master/docs/images/typical-hardware.png)
+
+![Hardware setup mounted on a electric car](https://github.com/intel/driving-data-collection-reference-kit/blob/master/docs/images/hardware-on-a-car.png)
 
 
 ### Software
