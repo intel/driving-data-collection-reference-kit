@@ -26,10 +26,10 @@ A typical system implemented with these guidelines and software would look like 
 
 ![Typical Hardware Setup](https://github.com/intel/driving-data-collection-reference-kit/blob/master/docs/images/typical-hardware.png)
 
-In our setup, we used 
+In our setup, we used off-the-self parts :
 - Intel NUC - (Skew : BLKNUC7I7DNHE)
 - 8 GB DDR4 x 2
-- 1 TB Samsun 860 EVO (MZ-76E1T0BW) SSD
+- 1 TB Samsung 860 EVO (MZ-76E1T0BW) SSD
 - [DCDC-NUC, 6-48V automotiove power supply for NUC, 12V or 19V output](http://www.mini-box.com/DCDC-NUC)
 - [ZED Stereo Camera](https://www.stereolabs.com/zed/)
 
