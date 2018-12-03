@@ -26,8 +26,14 @@ A typical system implemented with these guidelines and software would look like 
 
 ![Typical Hardware Setup](https://github.com/intel/driving-data-collection-reference-kit/blob/master/docs/images/typical-hardware.png)
 
-![Hardware setup mounted on a electric car](https://github.com/intel/driving-data-collection-reference-kit/blob/master/docs/images/hardware-on-a-car.png)
+In our setup, we used 
+- Intel NUC - (Skew : BLKNUC7I7DNHE)
+- 8 GB DDR4 x 2
+- 1 TB Samsun 860 EVO (MZ-76E1T0BW) SSD
+- [DCDC-NUC, 6-48V automotiove power supply for NUC, 12V or 19V output](http://www.mini-box.com/DCDC-NUC)
+- [ZED Stereo Camera](https://www.stereolabs.com/zed/)
 
+![Hardware setup mounted on a electric car](https://github.com/intel/driving-data-collection-reference-kit/blob/master/docs/images/hardware-on-a-car.png)
 
 ### Software
 
@@ -76,7 +82,7 @@ git submodule update --init --recursive'
 ```
 Cameras:
 In case PtGrey cameras are used,
-- Camera needs fly capture sdk to be installed, get the sdk from < @TODO: Update the url to download sdk > and install it.
+- Camera needs [Fly Capture SDK](https://www.ptgrey.com/flycapture-sdk) to be installed, download the SDK and install it.
 - Install libpcap
 ```bash
 sudo apt-get install libpcap0.8-dev
@@ -137,7 +143,7 @@ To learn about design considerations, read [docs/design.md](docs/design.md) .
 
 # Known Issues / Limitations
 - Only USB cameras are supported as of now.
-- Data from sensors are not tightly synchronised. This needs an external trigger (todo).
+- Data from sensors are not tightly synchronised. This needs an external trigger.
 - Second stage processing takes longer time because of sequential writes for ROS bag. 
 
 # LICENSE
