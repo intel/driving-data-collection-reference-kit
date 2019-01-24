@@ -1,6 +1,6 @@
 # Driving Data Collection Reference kit
 
-Software tools that can be used for collecting automotive driving data from cameras, LIDARS and CAN. Tools are available to help in extrinsic calibration of cameras and LIDARs.
+Our motivation for a data collection framework is to enable a community based effort to collect driving data. Challenges in the ecosystem are high cost and steep learning curve of technical know-how. A low cost off-the-shelf solution used as-is falls short to meet reliability, quality, performance and realtime requirements. There are several systems for real time data collection systems are quite prohibitive for a developing economy. To address this challenge, we have created a recipe for a reference hardware and the associated software framework which is scalable in performance and minimizes initial capital investment. Also, the stack is designed to achieve maximum throughput possible in a commercial automotive grade system with real time constraints.
 
 For technical details, please refer to:
 
