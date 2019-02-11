@@ -557,6 +557,7 @@ int UsbCam::read_frame()
   unsigned int i;
   int len;
   bool result = false;
+  ros::Time now = ros::Time::now();
 
   switch (io_)
   {
@@ -612,8 +613,8 @@ int UsbCam::read_frame()
 
       assert(buf.index < n_buffers_);
       len = buf.bytesused;
-      image_->tv_sec = buf.timestamp.tv_sec;
-      image_->tv_usec = buf.timestamp.tv_usec;
+      image_->tv_sec = now.toSec();
+      image_->tv_usec = now.toNSec();
       ROS_DEBUG("new image timestamp: %d.%d", image_->tv_sec, image_->tv_usec);
 
       result = process_image(buffers_[buf.index].start, len, image_);
