@@ -40,5 +40,4 @@ void UsbCamNodelet::onInit()
 // Register this plugin with pluginlib.  Names must match nodelets.xml.
 //
 // parameters: package, class name, class type, base class type
-PLUGINLIB_DECLARE_CLASS(usb_cam, UsbCamNodelet,
-                        usb_cam::UsbCamNodelet, nodelet::Nodelet);
+PLUGINLIB_EXPORT_CLASS(usb_cam::UsbCamNodelet, nodelet::Nodelet);
