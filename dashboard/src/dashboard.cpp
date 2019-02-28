@@ -20,7 +20,7 @@
 #include <set>
 
 #include <mosquittopp.h>
-#include <json/json.h>
+#include <json-c/json.h>
 
 
 // C specified headers

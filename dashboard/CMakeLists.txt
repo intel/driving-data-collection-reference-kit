@@ -23,7 +23,7 @@ link_directories(/usr/lib/x86_64-linux-gnu/)
 add_executable(dashboard src/dashboard.cpp)
 
 
-target_link_libraries( dashboard -lmosquitto -lmosquittopp -ljson
+target_link_libraries( dashboard -lmosquitto -lmosquittopp -ljson-c
    ${catkin_LIBRARIES} ${Boost_LIBRARIES} ) 
 
 
