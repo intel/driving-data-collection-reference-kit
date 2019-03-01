@@ -1164,6 +1164,44 @@ void UsbCam::shutdown(void)
   avframe_rgb_ = NULL;
 }
 
+int UsbCam::grab_image(sensor_msgs::Image* msg, int timeout)
+{
+  // grab the image
+  int get_new_image = grab_image(timeout);
+  if (get_new_image == -2)
+  {
+    return -2;
+  }
+  else if (!get_new_image)
+  {
+    return 0;
+  }
+  // stamp the image
+  msg->header.stamp.sec = image_->tv_sec;
+  msg->header.stamp.nsec = 1000 * image_->tv_usec;
+  // fill the info
+  if (monochrome_)
+  {
+    fillImage(*msg, "mono8", image_->height, image_->width, image_->width,
+              image_->image);
+  }
+  else
+  {
+    // fillImage(*msg, "rgb8", image_->height, image_->width, 3 * image_->width,
+    //           image_->image);
+    msg->encoding = "yuyv";
+    msg->height = image_->height;
+    msg->width = image_->width;
+    msg->step = 2 * image_->width;
+    size_t len = image_->width * image_->height * 2;
+    msg->data.resize(len);
+    memcpy(&msg->data[0], image_->image, len);
+
+    msg->is_bigendian = 0;
+  }
+  return 1;
+}
+
 int UsbCam::grab_image(datainfile::ImageDataFile* img_data_file_, DataFile *dataFileObj, sensor_msgs::Image* msg, int timeout)
 {
   // grab the image

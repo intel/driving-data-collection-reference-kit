@@ -15,9 +15,11 @@ UsbCamWrapper::UsbCamWrapper(ros::NodeHandle node, ros::NodeHandle private_nh) :
   priv_node_.param("contrast", contrast_, -1); //0-255, -1 "leave alone"
   priv_node_.param("saturation", saturation_, -1); //0-255, -1 "leave alone"
   priv_node_.param("sharpness", sharpness_, -1); //0-255, -1 "leave alone"
-  priv_node_.getParam("dump_directory", dump_path_);
- 
-  dataFileObj = new DataFile(dump_path_);
+  priv_node_.param("dump_to_disk", dump_to_disk_, false);
+  if (dump_to_disk_) {
+    priv_node_.getParam("dump_directory", dump_path_);
+    dataFileObj = new DataFile(dump_path_);
+  }
 
   //Mandatory fields to be provided
   priv_node_.param("usb_port_id", usb_port_name_, std::string("\0"));
@@ -112,26 +114,26 @@ UsbCamWrapper::UsbCamWrapper(ros::NodeHandle node, ros::NodeHandle private_nh) :
   //image_transport::ImageTransport it(node_);
   //image_pub_ = it.advertiseCamera(topic_name_, 1);
   // Load transport publish plugin
-  #if 0
   std::string image_topic = node_.resolveName(topic_name_);
-  pub_loader_ = boost::make_shared<image_transport::PubLoader>("image_transport", "image_transport::PublisherPlugin");
-  std::string lookup_name = image_transport::PublisherPlugin::getLookupName(std::string("raw"));
-  image_pub_plugin_ = pub_loader_->createInstance(lookup_name);
-  if (image_pub_plugin_ != nullptr) 
-  {
-    image_pub_plugin_->advertise(node_, image_topic, 1, image_transport::SubscriberStatusCallback(),
-           image_transport::SubscriberStatusCallback(), ros::VoidPtr(), false);
-  }
-  else
-  {
-    ROS_ERROR("create image publish plugin error. lookup_name: '%s'", lookup_name.c_str());
-    node_.shutdown();
-    return;
-  }
-#endif
-  std::string image_topic = node_.resolveName(topic_name_);
-  cam_dump_pub_ = node_.advertise<datainfile::ImageDataFile>(image_topic, 1, ros::SubscriberStatusCallback(),
+  if (dump_to_disk_) {
+    cam_dump_pub_ = node_.advertise<datainfile::ImageDataFile>(image_topic, 1, ros::SubscriberStatusCallback(),
           ros::SubscriberStatusCallback(), ros::VoidPtr(), false);
+  } else {
+    pub_loader_ = boost::make_shared<image_transport::PubLoader>("image_transport", "image_transport::PublisherPlugin");
+    std::string lookup_name = image_transport::PublisherPlugin::getLookupName(std::string("raw"));
+    image_pub_plugin_ = pub_loader_->createInstance(lookup_name);
+    if (image_pub_plugin_ != nullptr)
+    {
+      image_pub_plugin_->advertise(node_, image_topic, 1, image_transport::SubscriberStatusCallback(),
+            image_transport::SubscriberStatusCallback(), ros::VoidPtr(), false);
+    }
+    else
+    {
+      ROS_ERROR("create image publish plugin error. lookup_name: '%s'", lookup_name.c_str());
+      node_.shutdown();
+      return;
+    }
+  }
 
   // camera info publish
   std::string cam_info_topic = image_transport::getCameraInfoTopic(image_topic);
@@ -256,7 +258,13 @@ bool UsbCamWrapper::service_stop_cap(std_srvs::Empty::Request& req,
 int UsbCamWrapper::take_and_send_image()
 {
   // grab the image
-  int get_new_image = cam_.grab_image(&img_data_file_, dataFileObj, &img_, cam_timeout_);
+  int get_new_image;
+  if (dump_to_disk_) {
+    ROS_INFO("capturing img_data_file");
+    get_new_image = cam_.grab_image(&img_data_file_, dataFileObj, &img_, cam_timeout_);
+  } else {
+    get_new_image = cam_.grab_image(&img_, cam_timeout_);
+  }
 
   if (get_new_image == -2)
     return -2;
@@ -285,10 +293,15 @@ int UsbCamWrapper::take_and_send_image()
           << " current stamp:" << img_.header.stamp);
     last_stamp_ = img_.header.stamp;
   }
-  img_data_file_.header.stamp = img_.header.stamp;
+
   // publish the image
-  //image_pub_plugin_->publish(img_);
-  cam_dump_pub_.publish(img_data_file_);
+  if (dump_to_disk_) {
+    ROS_INFO("dumping to disk");
+    img_data_file_.header.stamp = img_.header.stamp;
+    cam_dump_pub_.publish(img_data_file_);
+  } else {
+    image_pub_plugin_->publish(img_);
+  }
   cam_info_pub_.publish(cam_info_);
 
   return 1;

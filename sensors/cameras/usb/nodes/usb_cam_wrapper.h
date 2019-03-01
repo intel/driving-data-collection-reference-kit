@@ -55,6 +55,7 @@ class UsbCamWrapper {
   std::string cam_product_id_;
   std::string cam_vendor_id_;
   std::string cam_id_string_;
+  bool dump_to_disk_;
   
   //std::string start_service_name_, start_service_name_;
   //bool streaming_status_;

@@ -1,11 +1,12 @@
 <launch>
-    <arg name="dump_directory" value="[/media/ark1/ashish1/dev1]" />
+    <arg name="dump_directory" value="[/dataset/tmp/]" />
   <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="dump_to_disk" type="bool" value="true"/>
     <param name="camera_name" value="head_camera" />
     <param name="topic_name" value="image_raw0" />
     <param name="camera_product_id" value="f580" />
     <param name="camera_vendor_id" value="2b03" />
-    <param name="usb_port_id" value="usb-0000:00:14.0-2" />
+    <param name="usb_port_id" value="usb-0000:00:14.0-1" />
     <rosparam param="dump_directory" subst_value="True">$(arg dump_directory)</rosparam>
     <param name="device_map_config" type="string" value="$(find usb_cam)/params/camera_dev_path.yaml" />
     <param name="image_width" value="3840" />

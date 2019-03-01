@@ -36,7 +36,7 @@
 #ifndef USB_CAM_USB_CAM_H
 #define USB_CAM_USB_CAM_H
 
-#include <asm/types.h>          /* for videodev2.h */
+#include <asm/types.h> /* for videodev2.h */
 
 extern "C"
 {
@@ -61,70 +61,81 @@ extern "C"
 #include "datainfile/ImageDataFile.h"
 #include "datainfile/datafile.h"
 
-namespace usb_cam {
+namespace usb_cam
+{
 
-class UsbCam {
- public:
-  typedef enum
+  class UsbCam
   {
-    IO_METHOD_READ, IO_METHOD_MMAP, IO_METHOD_USERPTR, IO_METHOD_UNKNOWN,
-  } io_method;
+  public:
+    typedef enum
+    {
+      IO_METHOD_READ,
+      IO_METHOD_MMAP,
+      IO_METHOD_USERPTR,
+      IO_METHOD_UNKNOWN,
+    } io_method;
 
-  typedef enum
-  {
-    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_UNKNOWN
-  } pixel_format;
+    typedef enum
+    {
+      PIXEL_FORMAT_YUYV,
+      PIXEL_FORMAT_UYVY,
+      PIXEL_FORMAT_MJPEG,
+      PIXEL_FORMAT_YUVMONO10,
+      PIXEL_FORMAT_RGB24,
+      PIXEL_FORMAT_UNKNOWN
+    } pixel_format;
 
     UsbCam();
     ~UsbCam();
 
     // start camera
-    void start(const std::string& dev, io_method io, pixel_format pf,
-            int image_width, int image_height, int framerate);
+    void start(const std::string &dev, io_method io, pixel_format pf,
+              int image_width, int image_height, int framerate);
     // shutdown camera
     void shutdown(void);
 
     // grabs a new image from the camera
-    //int grab_image(sensor_msgs::Image* image, int timeout);
-    int grab_image(datainfile::ImageDataFile* img_data_file_, DataFile *dataFileObj, sensor_msgs::Image *img_, int timeout);
+    int grab_image(sensor_msgs::Image *image, int timeout);
+    int grab_image(datainfile::ImageDataFile *img_data_file_, DataFile *dataFileObj, sensor_msgs::Image *img_, int timeout);
 
     // enables/disable auto focus
     void set_auto_focus(int value);
 
-  // Set video device parameters
-  void set_v4l_parameter(const std::string& param, int value);
-  void set_v4l_parameter(const std::string& param, const std::string& value);
+    // Set video device parameters
+    void set_v4l_parameter(const std::string &param, int value);
+    void set_v4l_parameter(const std::string &param, const std::string &value);
 
-  static io_method io_method_from_string(const std::string& str);
-  static pixel_format pixel_format_from_string(const std::string& str);
+    static io_method io_method_from_string(const std::string &str);
+    static pixel_format pixel_format_from_string(const std::string &str);
 
-  void stop_capturing(void);
-  void start_capturing(void);
-  bool is_capturing();
-  int fetch_device_path(const std::string usb_port, std::string &device_path,
-            const std::string camera_id_string_, const std::string dev_map_yml_);
+    void stop_capturing(void);
+    void start_capturing(void);
+    bool is_capturing();
+    int fetch_device_path(const std::string usb_port, std::string &device_path,
+                          const std::string camera_id_string_, const std::string dev_map_yml_);
 
-private:
+  private:
     struct CameraImage
     {
-        int width;
-        int height;
-        int bytes_per_pixel;
-        int image_size;
-        char *image;
-        int is_new;
-        int tv_sec;
-        int tv_usec;
+      int width;
+      int height;
+      int bytes_per_pixel;
+      int image_size;
+      char *image;
+      int is_new;
+      int tv_sec;
+      int tv_usec;
     };
 
-    struct Buffer {
-        void * start;
-        size_t length;
+    struct Buffer
+    {
+      void *start;
+      size_t length;
     };
 
     int init_mjpeg_decoder(int image_width, int image_height);
     void mjpeg2rgb(char *MJPEG, int len, char *RGB, int NumPixels);
-    bool process_image(const void * src, int len, boost::shared_ptr<CameraImage> dest);
+    bool process_image(const void *src, int len, boost::shared_ptr<CameraImage> dest);
     int read_frame();
     void uninit_device(void);
     void init_read(unsigned int buffer_size);
@@ -156,9 +167,8 @@ private:
     int avframe_rgb_size_;
     struct SwsContext *video_sws_;
     boost::shared_ptr<CameraImage> image_;
-};
+  };
 
-}
+} // namespace usb_cam
 
 #endif
-
