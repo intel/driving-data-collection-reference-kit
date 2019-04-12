@@ -549,9 +549,31 @@ bool UsbCam::process_image(const void * src, int len, boost::shared_ptr<CameraIm
     ROS_ERROR("process image error. len: %d, width: %d, height: %d", len, dest->width, dest->height);
     return false;
   }
+  /*
   if (pixelformat_ == V4L2_PIX_FMT_YUYV || pixelformat_ == V4L2_PIX_FMT_UYVY) {
     memcpy(dest->image, src, dest->width * dest->height * 2);
-  } else {
+  }
+  */
+  if (pixelformat_ == V4L2_PIX_FMT_YUYV)
+  {
+    if (monochrome_)
+    { //actually format V4L2_PIX_FMT_Y16, but xioctl gets unhappy if you don't use the advertised type (yuyv)
+      mono102mono8((char*)src, dest->image, dest->width * dest->height);
+    }
+    else
+    {
+      yuyv2rgb((char*)src, dest->image, dest->width * dest->height);
+    }
+  }
+  else if (pixelformat_ == V4L2_PIX_FMT_UYVY)
+    uyvy2rgb((char*)src, dest->image, dest->width * dest->height);
+  else if (pixelformat_ == V4L2_PIX_FMT_MJPEG)
+    mjpeg2rgb((char*)src, len, dest->image, dest->width * dest->height);
+  else if (pixelformat_ == V4L2_PIX_FMT_RGB24)
+    rgb242rgb((char*)src, dest->image, dest->width * dest->height);
+  else if (pixelformat_ == V4L2_PIX_FMT_GREY)
+    memcpy(dest->image, (char*)src, dest->width * dest->height);
+  else {
     ROS_ERROR("unsupported pixel format: %d", pixelformat_);
     return false;
   }
@@ -1187,8 +1209,9 @@ int UsbCam::grab_image(sensor_msgs::Image* msg, int timeout)
   }
   else
   {
-    // fillImage(*msg, "rgb8", image_->height, image_->width, 3 * image_->width,
-    //           image_->image);
+    fillImage(*msg, "rgb8", image_->height, image_->width, 3 * image_->width,
+              image_->image);
+    /*
     msg->encoding = "yuyv";
     msg->height = image_->height;
     msg->width = image_->width;
@@ -1198,6 +1221,7 @@ int UsbCam::grab_image(sensor_msgs::Image* msg, int timeout)
     memcpy(&msg->data[0], image_->image, len);
 
     msg->is_bigendian = 0;
+    */
   }
   return 1;
 }
