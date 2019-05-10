@@ -1,0 +1,135 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="container">
+
+  <div class="row">
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Raw datasets
+      <small> - summary</small>
+    </h1>
+  </div>
+
+  {% if dashboard_info is defined %}
+  <div class="row">
+    <div class="table-responsive" id="summary">
+      <table class="table table-bordered table-hover table-sm mb-3" id="dashboardTable" cellspacing="0">
+        <thead class="thead-light">
+          <tr>
+            <th>Raw data</th>
+            <th>Size ({{ dashboard_info['total_size'] }})</th>
+            <th>Duration ({{ dashboard_info['total_duration'] }})</th>
+            <th>Distance Km ({{ dashboard_info['total_distance'] }})</th>
+            <th>Frames ({{ dashboard_info['total_frames'] }})</th>
+          </tr>
+        </thead>
+          <script>
+            console.log("raw:phases = \n" + "{{ dashboard_info['raw']['phases'] }}");
+          </script>
+        <tbody>
+          {% for phase, pInfo in dashboard_info['raw']['phases'].iteritems() %}
+          <tr class="table-info">
+            <td>
+              <a href="#{{ phase }}">{{ phase }}</a>
+            </td>
+            <td>{{ pInfo['total_size' ]}}</td>
+            <td>{{ pInfo['total_duration'] }}</td>
+            <td>{{ pInfo['total_distance'] }}</td>
+            <td>{{ pInfo['total_frames'] }}</td>
+          </tr>
+            {% for location, lInfo in pInfo['locations'].iteritems() %}
+            <tr>
+              {% if location in ['hyderabad'] %}
+              <td>
+                <a href="#{{ phase }}_{{ location }}">Telangana</a>
+              </td>
+              {% elif location in ['bangalore'] %}
+              <td>
+                <a href="#{{ phase }}_{{ location }}">Karnataka</a>
+              </td>
+              {% else %}
+              <td>
+                <a href="#{{ phase }}_{{ location }}">{{ location }}</a>
+              </td>
+              {% endif %}
+              <td>{{ lInfo['total_size' ]}}</td>
+              <td>{{ lInfo['total_duration'] }}</td>
+              <td>{{ lInfo['total_distance'] }}</td>
+              <td>{{ lInfo['total_frames'] }}</td>
+            </tr>
+            {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="table-responsive" id="dashboard">
+      <table class="table table-bordered table-hover table-sm mb-3" id="dashboardTable" cellspacing="0">
+        <thead class="thead-light">
+          <tr>
+            <th>Raw data</th>
+            <th>Size ({{ dashboard_info['total_size'] }})</th>
+            <th>Duration ({{ dashboard_info['total_duration'] }})</th>
+            <th>Distance Km ({{ dashboard_info['total_distance'] }})</th>
+            <th>Frames ({{ dashboard_info['total_frames'] }})</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for phase, pInfo in dashboard_info['raw']['phases'].iteritems() %}
+            <tr class="table-primary">
+              <td id="{{ phase }}">{{ phase }}</td>
+              <td>{{ pInfo['total_size' ]}}</td>
+              <td>{{ pInfo['total_duration'] }}</td>
+              <td>{{ pInfo['total_distance'] }}</td>
+              <td>{{ pInfo['total_frames'] }}</td>
+            </tr>
+            {% for location, info in pInfo['locations'].iteritems() %}
+            <tr class="table-info">
+              {% if location in ['hyderabad'] %}
+              <td id="{{ phase }}_{{ location }}">Telangana</td>
+              {% elif location in ['bangalore'] %}
+              <td id="{{ phase }}_{{ location }}">Karnataka</td>
+              {% else %}
+              <td id="{{ phase }}_{{ location }}">{{ location }}</td>
+              {% endif %}
+              <td>{{ info['total_size' ]}}</td>
+              <td>{{ info['total_duration'] }}</td>
+              <td>{{ info['total_distance'] }}</td>
+              <td>{{ info['total_frames'] }}</td>
+            </tr>
+              {% for value in info['fileinfo']|sort(attribute='name',reverse=True) %}
+              <tr>
+                {% if location in ['hyderabad'] %}
+                <td>
+                  <a href="telangana.html?file={{ value['name'] }}">{{ value['name'] }}</a>
+                </td>
+                {% else %}
+                <td>
+                  <a href="karnataka.html?file={{ value['name'] }}">{{ value['name'] }}</a>
+                </td>
+                {% endif %}
+                <td>{{ value['size'] }}</td>
+                <td>{{ value['duration'] }}</td>
+                <td>{{ value['distance'] }}</td>
+                <td>{{ value['frames'] }}</td>
+              </tr>
+              {% endfor %}
+            {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% else %}
+  <div class="row">
+    <div class="mb-0 mt-4">
+      <i class="fa fa-newspaper-o"></i> Dashboard not available currently!</div>
+    <hr class="mt-2">
+    <p>
+      Start by selecting a dataset of your choice from list on the left pane.
+    </p>
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}
