@@ -280,6 +280,7 @@ int UsbCamWrapper::take_and_send_image()
   cam_info_->header.frame_id = img_.header.frame_id;
   cam_info_->header.stamp = img_.header.stamp;
 
+  /*
   if (last_stamp_ == ros::Time(0)) 
   {
     last_stamp_ = img_.header.stamp;
@@ -297,7 +298,7 @@ int UsbCamWrapper::take_and_send_image()
           << " current stamp:" << img_.header.stamp);
     last_stamp_ = img_.header.stamp;
   }
-
+  */
   // publish the image
   if (dump_to_disk_) {
     ROS_INFO("dumping to disk");
