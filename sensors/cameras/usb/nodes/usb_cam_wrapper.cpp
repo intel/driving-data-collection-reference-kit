@@ -19,21 +19,20 @@ UsbCamWrapper::UsbCamWrapper(ros::NodeHandle node, ros::NodeHandle private_nh) :
   if (dump_to_disk_) {
     priv_node_.getParam("dump_directory", dump_path_);
     dataFileObj = new DataFile(dump_path_);
-  }
-
-  //Mandatory fields to be provided
-  priv_node_.param("usb_port_id", usb_port_name_, std::string("\0"));
-  priv_node_.param("camera_product_id", cam_product_id_, std::string("\0"));
-  priv_node_.param("camera_vendor_id", cam_vendor_id_, std::string("\0"));
-  if(usb_port_name_.empty() || cam_product_id_.empty() || cam_vendor_id_.empty())
-  {
-    ROS_ERROR("\n Values required for params (Mandatory) : \
-    \n\t usb_port_id = %s \n\t camera_product_id = %s \
-    \n\t camera_vendor_id = %s \n", (usb_port_name_.empty()) ? "???" : usb_port_name_.c_str(), \
-    (cam_product_id_.empty()) ? "???" : cam_product_id_.c_str(), \
-    (cam_vendor_id_.empty()) ? "???" : cam_vendor_id_.c_str());
-    node_.shutdown();
-    return;
+    //Mandatory fields to be provided for dumping to disk
+    priv_node_.param("usb_port_id", usb_port_name_, std::string("\0"));
+    priv_node_.param("camera_product_id", cam_product_id_, std::string("\0"));
+    priv_node_.param("camera_vendor_id", cam_vendor_id_, std::string("\0"));
+    if(usb_port_name_.empty() || cam_product_id_.empty() || cam_vendor_id_.empty())
+    {
+      ROS_ERROR("\n Values required for params (Mandatory) : \
+      \n\t usb_port_id = %s \n\t camera_product_id = %s \
+      \n\t camera_vendor_id = %s \n", (usb_port_name_.empty()) ? "???" : usb_port_name_.c_str(), \
+      (cam_product_id_.empty()) ? "???" : cam_product_id_.c_str(), \
+      (cam_vendor_id_.empty()) ? "???" : cam_vendor_id_.c_str());
+      node_.shutdown();
+      return;
+    }
   }
 
   priv_node_.param("device_map_config", dev_map_yml_, std::string("\0"));
@@ -76,32 +75,37 @@ UsbCamWrapper::UsbCamWrapper(ros::NodeHandle node, ros::NodeHandle private_nh) :
   // default 3000 ms
   priv_node_.param("camera_timeout", cam_timeout_, 1000);
   priv_node_.param("spin_interval", spin_interval_, 0.005f);
-  
-  //get the device product id and vendor id into a format string
-  cam_id_string_ = "usb:v" + cam_vendor_id_ + "p" + cam_product_id_; //usb:v<xxxx>p<xxxx>
-  std::transform(cam_id_string_.begin(), cam_id_string_.end(), cam_id_string_.begin(), ::tolower);
-  bool device_detected = false;
-  while(1)
-  {
-    int ret = cam_.fetch_device_path(usb_port_name_, video_device_name_, cam_id_string_, dev_map_yml_);
-    if(ret != 0)
-    {
-      node_.shutdown();
-      return;
-    }
 
-    if(!(video_device_name_.empty()))
+  // get video device name
+  priv_node_.param("camera_device", video_device_name_, std::string("/dev/video0"));
+
+  if (dump_to_disk_) {
+    //get the device product id and vendor id into a format string
+    cam_id_string_ = "usb:v" + cam_vendor_id_ + "p" + cam_product_id_; //usb:v<xxxx>p<xxxx>
+    std::transform(cam_id_string_.begin(), cam_id_string_.end(), cam_id_string_.begin(), ::tolower);
+    bool device_detected = false;
+    while(1)
     {
-      break;
-    }
-    else
-    {
-      if(!device_detected)
+      int ret = cam_.fetch_device_path(usb_port_name_, video_device_name_, cam_id_string_, dev_map_yml_);
+      if(ret != 0)
       {
-        ROS_ERROR("\n No device is found on USB port : %s \n",usb_port_name_.c_str());
-        device_detected = true;
+        node_.shutdown();
+        return;
       }
-      sleep(1);
+
+      if(!(video_device_name_.empty()))
+      {
+        break;
+      }
+      else
+      {
+        if(!device_detected)
+        {
+          ROS_ERROR("\n No device is found on USB port : %s \n",usb_port_name_.c_str());
+          device_detected = true;
+        }
+        sleep(1);
+      }
     }
   }
 
