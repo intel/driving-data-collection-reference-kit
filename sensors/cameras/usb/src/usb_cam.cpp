@@ -549,11 +549,7 @@ bool UsbCam::process_image(const void * src, int len, boost::shared_ptr<CameraIm
     ROS_ERROR("process image error. len: %d, width: %d, height: %d", len, dest->width, dest->height);
     return false;
   }
-  /*
-  if (pixelformat_ == V4L2_PIX_FMT_YUYV || pixelformat_ == V4L2_PIX_FMT_UYVY) {
-    memcpy(dest->image, src, dest->width * dest->height * 2);
-  }
-  */
+
   if (pixelformat_ == V4L2_PIX_FMT_YUYV)
   {
     if (monochrome_)
@@ -562,7 +558,9 @@ bool UsbCam::process_image(const void * src, int len, boost::shared_ptr<CameraIm
     }
     else
     {
-      yuyv2rgb((char*)src, dest->image, dest->width * dest->height);
+      // yuyv2rgb((char*)src, dest->image, dest->width * dest->height);
+      // do a direct yuyv copy instead of rgb conversion
+      memcpy(dest->image, src, dest->width * dest->height * 2);
     }
   }
   else if (pixelformat_ == V4L2_PIX_FMT_UYVY)
@@ -1120,10 +1118,16 @@ void UsbCam::start(const std::string& dev, io_method io_method,
 
   io_ = io_method;
   monochrome_ = false;
-  if (pixel_format == PIXEL_FORMAT_YUYV)
+  int bytes_per_pixel = 3;
+
+  if (pixel_format == PIXEL_FORMAT_YUYV) {
     pixelformat_ = V4L2_PIX_FMT_YUYV;
-  else if (pixel_format == PIXEL_FORMAT_UYVY)
+    bytes_per_pixel = 2;
+  }
+  else if (pixel_format == PIXEL_FORMAT_UYVY) {
     pixelformat_ = V4L2_PIX_FMT_UYVY;
+    bytes_per_pixel = 2;
+  }
   else if (pixel_format == PIXEL_FORMAT_MJPEG)
   {
     pixelformat_ = V4L2_PIX_FMT_MJPEG;
@@ -1134,10 +1138,12 @@ void UsbCam::start(const std::string& dev, io_method io_method,
     //actually format V4L2_PIX_FMT_Y16 (10-bit mono expresed as 16-bit pixels), but we need to use the advertised type (yuyv)
     pixelformat_ = V4L2_PIX_FMT_YUYV;
     monochrome_ = true;
+    bytes_per_pixel = 2;
   }
   else if (pixel_format == PIXEL_FORMAT_RGB24)
   {
     pixelformat_ = V4L2_PIX_FMT_RGB24;
+    bytes_per_pixel = 3;
   }
   else
   {
@@ -1154,7 +1160,7 @@ void UsbCam::start(const std::string& dev, io_method io_method,
 
   image_->width = image_width;
   image_->height = image_height;
-  image_->bytes_per_pixel = 2;      //corrected 11/10/15 (BYTES not BITS per pixel)
+  image_->bytes_per_pixel = bytes_per_pixel;      //corrected 11/10/15 (BYTES not BITS per pixel)
 
   image_->image_size = image_->width * image_->height * image_->bytes_per_pixel;
   image_->is_new = 0;
@@ -1206,22 +1212,18 @@ int UsbCam::grab_image(sensor_msgs::Image* msg, int timeout)
   {
     fillImage(*msg, "mono8", image_->height, image_->width, image_->width,
               image_->image);
-  }
-  else
-  {
+  } else if(pixelformat_ == V4L2_PIX_FMT_YUYV || pixelformat_ == V4L2_PIX_FMT_YUV422P) {
+      msg->encoding = "yuyv";
+      msg->step = image_->width * 2;
+      size_t len = image_->width * image_->height * 2;
+      msg->height = image_->height;
+      msg->width = image_->width;
+      msg->is_bigendian = 0;
+      msg->data.resize(len);
+      memcpy(&msg->data[0], image_->image, len);
+  } else {
     fillImage(*msg, "rgb8", image_->height, image_->width, 3 * image_->width,
-              image_->image);
-    /*
-    msg->encoding = "yuyv";
-    msg->height = image_->height;
-    msg->width = image_->width;
-    msg->step = 2 * image_->width;
-    size_t len = image_->width * image_->height * 2;
-    msg->data.resize(len);
-    memcpy(&msg->data[0], image_->image, len);
-
-    msg->is_bigendian = 0;
-    */
+        image_->image);
   }
   return 1;
 }
