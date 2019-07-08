@@ -558,9 +558,10 @@ bool UsbCam::process_image(const void * src, int len, boost::shared_ptr<CameraIm
     }
     else
     {
-      // yuyv2rgb((char*)src, dest->image, dest->width * dest->height);
-      // do a direct yuyv copy instead of rgb conversion
-      memcpy(dest->image, src, dest->width * dest->height * 2);
+      if (convertYuyv2Rgb_)
+        yuyv2rgb((char*)src, dest->image, dest->width * dest->height);
+      else
+        memcpy(dest->image, src, dest->width * dest->height * 2);
     }
   }
   else if (pixelformat_ == V4L2_PIX_FMT_UYVY)
@@ -1194,6 +1195,8 @@ void UsbCam::shutdown(void)
 
 int UsbCam::grab_image(sensor_msgs::Image* msg, int timeout)
 {
+  // convert yuyv2rgb when using sensor_msgs::Image
+  convertYuyv2Rgb_ = true;
   // grab the image
   int get_new_image = grab_image(timeout);
   if (get_new_image == -2)
@@ -1212,15 +1215,6 @@ int UsbCam::grab_image(sensor_msgs::Image* msg, int timeout)
   {
     fillImage(*msg, "mono8", image_->height, image_->width, image_->width,
               image_->image);
-  } else if(pixelformat_ == V4L2_PIX_FMT_YUYV || pixelformat_ == V4L2_PIX_FMT_YUV422P) {
-      msg->encoding = "yuyv";
-      msg->step = image_->width * 2;
-      size_t len = image_->width * image_->height * 2;
-      msg->height = image_->height;
-      msg->width = image_->width;
-      msg->is_bigendian = 0;
-      msg->data.resize(len);
-      memcpy(&msg->data[0], image_->image, len);
   } else {
     fillImage(*msg, "rgb8", image_->height, image_->width, 3 * image_->width,
         image_->image);
@@ -1230,6 +1224,8 @@ int UsbCam::grab_image(sensor_msgs::Image* msg, int timeout)
 
 int UsbCam::grab_image(datainfile::ImageDataFile* img_data_file_, DataFile *dataFileObj, sensor_msgs::Image* msg, int timeout)
 {
+  // disable yuyv2rgb conversion when dumping to disk using ImageDataFile
+  convertYuyv2Rgb_ = false;
   // grab the image
   int get_new_image = grab_image(timeout);
   if (get_new_image == -2)

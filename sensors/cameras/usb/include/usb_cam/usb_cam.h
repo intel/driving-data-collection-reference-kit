@@ -148,6 +148,7 @@ namespace usb_cam
     //void reset_device(void);
     int grab_image(int timeout);
 
+    bool convertYuyv2Rgb_;
     bool is_capturing_;
     std::string camera_dev_;
     std::string dump_path_;
