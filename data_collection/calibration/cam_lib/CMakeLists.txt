@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(cam_lib)
 
 include(ExternalProject)
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/../../cmake/modules")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/../../../cmake/modules")
 SET(CMAKE_CXX_FLAGS "-std=c++11")
 
 ExternalProject_Add (

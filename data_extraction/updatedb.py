@@ -22,7 +22,7 @@ from tqdm import tqdm # progress bar
 # if called as standlone script, add top dir to syspat to import our modules
 if __name__ == "__main__":
     import sys
-    repoPath = os.path.dirname(os.path.realpath(__file__)) + "/../"
+    repoPath = os.path.dirname(os.path.realpath(__file__))
     sys.path.append(repoPath)
 # else, we presume the modules are organized and available
 from model.RawBagfile import RawBagfile # MongoDb model for rosbag

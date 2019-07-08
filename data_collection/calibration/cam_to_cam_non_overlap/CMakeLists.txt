@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(ext_calib_cam_cam_non_overlap)
 
 include(ExternalProject)
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/../../cmake/modules")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/../../../cmake/modules")
 SET(CMAKE_CXX_FLAGS "-std=c++11")
 
 find_package( OpenCV REQUIRED )
