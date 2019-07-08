@@ -2,7 +2,7 @@
   <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen">
     <param name="dump_to_disk" type="bool" value="false"/>
     <param name="camera_name" value="head_camera" />
-    <param name="topic_name" value="image_raw0" />
+    <param name="topic_name" value="image_raw" />
     <param name="camera_device" value="/dev/video4" />
     <param name="device_map_config" type="string" value="$(find usb_cam)/params/camera_dev_path.yaml" />
     <param name="image_width" value="3840" />
@@ -10,5 +10,6 @@
     <param name="pixel_format" value="yuyv" />
     <param name="camera_frame_id" value="usb_cam" />
     <param name="io_method" value="mmap"/>
+    <param name="split_image" type="bool" value="true" />
   </node>
 </launch>

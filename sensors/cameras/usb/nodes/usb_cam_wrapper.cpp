@@ -10,7 +10,7 @@ UsbCamWrapper::UsbCamWrapper(ros::NodeHandle node, ros::NodeHandle private_nh) :
     node_(node), priv_node_(private_nh), last_stamp_(0) 
 {
   // grab the parameters
-  priv_node_.param("topic_name", topic_name_, std::string("image_raw0"));
+  priv_node_.param("topic_name", topic_name_, std::string("image_raw"));
   priv_node_.param("brightness", brightness_, -1); //0-255, -1 "leave alone"
   priv_node_.param("contrast", contrast_, -1); //0-255, -1 "leave alone"
   priv_node_.param("saturation", saturation_, -1); //0-255, -1 "leave alone"
@@ -52,6 +52,9 @@ UsbCamWrapper::UsbCamWrapper(ros::NodeHandle node, ros::NodeHandle private_nh) :
 
   // possible values: yuyv, uyvy, mjpeg, yuvmono10, rgb24
   priv_node_.param("pixel_format", pixel_format_name_, std::string("mjpeg"));
+
+  // split images into left & right; for stereo cams
+  priv_node_.param("split_image", split_image_, false);
 
   // enable/disable autofocus
   priv_node_.param("autofocus", autofocus_, false);
@@ -125,17 +128,44 @@ UsbCamWrapper::UsbCamWrapper(ros::NodeHandle node, ros::NodeHandle private_nh) :
   } else {
     pub_loader_ = boost::make_shared<image_transport::PubLoader>("image_transport", "image_transport::PublisherPlugin");
     std::string lookup_name = image_transport::PublisherPlugin::getLookupName(std::string("raw"));
-    image_pub_plugin_ = pub_loader_->createInstance(lookup_name);
-    if (image_pub_plugin_ != nullptr)
-    {
-      image_pub_plugin_->advertise(node_, image_topic, 1, image_transport::SubscriberStatusCallback(),
-            image_transport::SubscriberStatusCallback(), ros::VoidPtr(), false);
-    }
-    else
-    {
-      ROS_ERROR("create image publish plugin error. lookup_name: '%s'", lookup_name.c_str());
-      node_.shutdown();
-      return;
+    if (split_image_) {
+      image_pub_plugin_ = pub_loader_->createInstance(lookup_name);
+      if (image_pub_plugin_ != nullptr)
+      {
+        image_pub_plugin_->advertise(node_, image_topic + std::string("/left"), 1, image_transport::SubscriberStatusCallback(),
+              image_transport::SubscriberStatusCallback(), ros::VoidPtr(), false);
+      }
+      else
+      {
+        ROS_ERROR("create left image publish plugin error. lookup_name: '%s'", lookup_name.c_str());
+        node_.shutdown();
+        return;
+      }
+      image_pub_plugin_R_ = pub_loader_->createInstance(lookup_name);
+      if (image_pub_plugin_R_ != nullptr)
+      {
+        image_pub_plugin_R_->advertise(node_, image_topic + std::string("/right"), 1, image_transport::SubscriberStatusCallback(),
+              image_transport::SubscriberStatusCallback(), ros::VoidPtr(), false);
+      }
+      else
+      {
+        ROS_ERROR("create right image publish plugin error. lookup_name: '%s'", lookup_name.c_str());
+        node_.shutdown();
+        return;
+      }
+    } else {
+      image_pub_plugin_ = pub_loader_->createInstance(lookup_name);
+      if (image_pub_plugin_ != nullptr)
+      {
+        image_pub_plugin_->advertise(node_, image_topic, 1, image_transport::SubscriberStatusCallback(),
+              image_transport::SubscriberStatusCallback(), ros::VoidPtr(), false);
+      }
+      else
+      {
+        ROS_ERROR("create image publish plugin error. lookup_name: '%s'", lookup_name.c_str());
+        node_.shutdown();
+        return;
+      }
     }
   }
 
@@ -259,6 +289,32 @@ bool UsbCamWrapper::service_stop_cap(std_srvs::Empty::Request& req,
   return true;
 }
 
+void UsbCamWrapper::splitImage(const sensor_msgs::Image img,
+                               sensor_msgs::Image& imgL,
+                               sensor_msgs::Image& imgR)
+{
+  // left image
+  imgL.header = img.header;
+  imgL.height = img.height;
+  imgL.width = img.width/2;
+  imgL.encoding = img.encoding;
+  imgL.is_bigendian = img.is_bigendian;
+  imgL.step = img.step/2;
+  imgL.data.resize(imgL.step*imgL.height);
+  // right image
+  imgR.header = img.header;
+  imgR.height = img.height;
+  imgR.width = img.width/2;
+  imgR.encoding = img.encoding;
+  imgR.is_bigendian = img.is_bigendian;
+  imgR.step = img.step/2;
+  imgR.data.resize(imgR.step*imgR.height);
+  for (uint i=0; i<img.height; i++) {
+    memcpy(&imgL.data[0] + i*imgL.step, &img.data[0] + (i*img.step), imgL.step);
+    memcpy(&imgR.data[0] + i*imgR.step, &img.data[0] + (i*img.step) + imgL.step /*offset*/, imgR.step);
+  }
+}
+
 int UsbCamWrapper::take_and_send_image()
 {
   // grab the image
@@ -305,7 +361,13 @@ int UsbCamWrapper::take_and_send_image()
     img_data_file_.header.stamp = img_.header.stamp;
     cam_dump_pub_.publish(img_data_file_);
   } else {
-    image_pub_plugin_->publish(img_);
+    if (split_image_) {
+      splitImage(img_, imgL_, imgR_);
+      image_pub_plugin_->publish(imgL_);
+      image_pub_plugin_R_->publish(imgR_);
+    } else {
+      image_pub_plugin_->publish(img_);
+    }
   }
   cam_info_pub_.publish(cam_info_);
 

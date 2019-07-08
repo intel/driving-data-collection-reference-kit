@@ -29,14 +29,18 @@ class UsbCamWrapper {
   int spin();
 
  private:
+  // util method to split image into left and right
+  void splitImage(const sensor_msgs::Image img, sensor_msgs::Image& imgl, sensor_msgs::Image& imgr);
   // shared image message
   datainfile::ImageDataFile img_data_file_;
   sensor_msgs::Image img_;
+  sensor_msgs::Image imgL_, imgR_;
   sensor_msgs::CameraInfoPtr cam_info_ = nullptr;
   //image_transport::CameraPublisher image_pub_;
   DataFile *dataFileObj;
   image_transport::PubLoaderPtr pub_loader_;
-  boost::shared_ptr<image_transport::PublisherPlugin> image_pub_plugin_;
+  boost::shared_ptr<image_transport::PublisherPlugin> image_pub_plugin_; // default / left cam
+  boost::shared_ptr<image_transport::PublisherPlugin> image_pub_plugin_R_; // right cam; used when split_image=true
 
   ros::Publisher cam_info_pub_;
   ros::Publisher cam_dump_pub_;
@@ -56,6 +60,7 @@ class UsbCamWrapper {
   std::string cam_vendor_id_;
   std::string cam_id_string_;
   bool dump_to_disk_;
+  bool split_image_;
   
   //std::string start_service_name_, start_service_name_;
   //bool streaming_status_;
