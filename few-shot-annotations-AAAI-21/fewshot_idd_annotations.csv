@@ -1,0 +1,803 @@
+Label,vfbLabel,XML ,ThisBox,NoBoxes,BoxSize,xMin,yMin,xMax,yMax
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-24-27_sideLeft/000270_r.xml,1,1,2073600,1,1,1920,1080
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_2_sideRight/0005880.xml,1,1,2073600,1,1,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_2_sideRight/000588_r.xml,1,1,2068200,1,1,1915,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-26-55_sideRight/000336_r.xml,1,1,2067840,0,0,1919,1076
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-26-55_sideRight/0003360.xml,1,1,2066285,3,1,1917,1079
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-24-27_sideLeft/0002700.xml,1,1,2042670,1,16,1918,1080
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-38-46_sideRight/000294_r.xml,1,1,1960245,16,52,1920,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/000834_r.xml,1,1,1773225,2,47,1918,971
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/0008340.xml,1,1,1769318,2,40,1920,961
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_2_sideRight/000504_r.xml,1,1,1756080,295,1,1920,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/000534_r.xml,1,1,1745568,3,166,1916,1077
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_2_sideRight/0005040.xml,1,1,1726920,322,1,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-07_12-01-06_sideRight/000648_r.xml,1,1,1665360,379,1,1920,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/0005340.xml,1,1,1608960,1,243,1920,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-54-27_sideLeft/000264_r.xml,1,1,1507500,1,76,1500,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-39-05_sideRight/000558_r.xml,1,1,1436171,1,128,1507,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-54-27_sideLeft/0002640.xml,1,1,1408876,1,139,1502,1076
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-00-01_sideLeft/000024_r.xml,1,1,1403530,1,1,1577,890
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-21-45_sideRight/0003390.xml,1,1,1399267,434,140,1920,1080
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0003570.xml,1,1,1351080,1,1,1251,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_11-19-12_sideRight/000060_r.xml,1,1,1325940,688,1,1917,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-20-55_sideRight/0007620.xml,1,1,1309492,0,0,1216,1075
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/0003480.xml,1,1,1308528,458,147,1861,1078
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000357_r.xml,1,1,1289520,1,1,1194,1080
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000348_r.xml,1,1,1286560,362,135,1721,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideRight_right/0005736.xml,1,1,1285568,222,271,1917,1028
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-22-00_sideRight/000264_r.xml,1,1,1212928,252,320,1899,1055
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/0002850.xml,2,2,1135293,1,403,1697,1071
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-22-00_sideRight/0002640.xml,1,1,1122408,349,367,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_3_sideLeft/0006240.xml,1,1,1030320,1,1,954,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/0003300.xml,1,1,1019696,1,450,1616,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_3_sideLeft/000624_r.xml,1,1,1006560,1,1,932,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/000330_r.xml,1,1,999096,2,453,1597,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000749.xml,1,1,979450,932,1,1881,1031
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/000285_r.xml,1,2,968416,6,373,1701,943
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0001274.xml,1,5,949892,1006,2,1921,1038
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-38-46_sideLeft/0004560.xml,1,1,935280,1,1,866,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000674.xml,2,2,903960,1085,1,1921,1080
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-49-32_sideRight/0007530.xml,1,1,903810,511,440,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000899.xml,1,4,870300,1019,1,1918,967
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_15-45-06_sideLeft/0002040.xml,1,1,854382,246,164,1332,949
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/0001275.xml,1,2,847014,26,174,963,1076
+vehicle fallback,water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-17_16-48-54_frontNear/0002340.xml,2,2,835332,291,170,1212,1075
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-26-52_sideLeft_right/0008025.xml,1,1,827640,426,454,1745,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000974.xml,1,5,822828,1158,1,1921,1077
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0001649.xml,1,2,802819,1171,1,1921,1069
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/0008340.xml,1,1,793800,1,1,735,1080
+vehicle fallback,water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-17_16-48-54_frontNear/0001920.xml,1,1,791943,387,122,1217,1074
+vehicle fallback,water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-17_16-48-54_frontNear/0002220.xml,1,1,788880,319,162,1183,1073
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-26-52_sideLeft_left/0007167.xml,2,2,775420,358,62,1489,746
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/001414_r.xml,1,1,769643,1,286,973,1076
+vehicle fallback,water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-17_16-48-54_frontNear/0001980.xml,1,1,758359,393,157,1219,1073
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-59-01_sideLeft/0003705.xml,1,1,756900,1,240,900,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_3_sideLeft/0002940.xml,1,1,756028,983,1,1920,806
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/0003435.xml,1,1,754416,282,457,1490,1080
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000343_r.xml,1,1,749329,196,440,1364,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/0007260.xml,1,1,714439,1,84,1177,690
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000824.xml,1,4,713818,1004,1,1764,938
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/000834_r.xml,1,1,707350,2,6,659,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_18/0001649.xml,1,2,699975,1157,1,1921,915
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/HYD-2018-04-26_13-30-01/0005473.xml,2,2,694800,850,1,1749,772
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_3_sideLeft/000294_r.xml,1,1,693105,978,1,1920,735
+vehicle fallback,crane,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-50-18_sideRight/0000240.xml,1,3,688389,340,12,1268,752
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-24-27_sideRight/000108_r.xml,1,2,688228,934,207,1919,904
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/000726_r.xml,1,1,683634,3,24,1193,597
+vehicle fallback,crane,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-50-18_sideRight/000024_r.xml,2,2,679320,258,1,1175,740
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/0000105.xml,1,1,666601,2,466,1092,1076
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/0000060.xml,1,1,660020,4,466,1085,1075
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-34-27_sideRight/0008340.xml,2,2,658362,1305,3,1917,1076
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-43-24_sideRight/0001020.xml,1,1,653877,648,326,1520,1074
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideRight_left/0005730.xml,1,1,652292,167,329,1418,849
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/0007710.xml,1,1,648600,116,314,1035,1018
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/000006_r.xml,1,1,648128,4,469,1069,1076
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/0000150.xml,1,1,646064,2,475,1085,1070
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/0002220.xml,3,3,634266,355,448,1356,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_11-19-12_sideRight/000055_r.xml,1,1,628000,494,295,1293,1079
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-24-27_sideRight/0001080.xml,2,2,623579,1005,201,1917,883
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/000015_r.xml,1,1,617652,1,479,1026,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/000010_r.xml,1,1,612836,3,477,1020,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_12-24-44_sideRight/000586_r.xml,1,1,611235,1216,214,1920,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/rearNear/BLR-2018-05-29_11-19-12_rearNear/000064_r.xml,1,1,610200,1,1,565,1080
+vehicle fallback,water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-17_16-48-54_frontNear/0002160.xml,1,1,597112,423,214,1161,1021
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000771_r.xml,1,1,588525,95,353,979,1017
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-44-27_sideRight/000084_r.xml,1,1,583480,1341,1,1920,1006
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-44-27_sideRight/0000180.xml,1,2,575456,1184,2,1917,785
+vehicle fallback,water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-17_16-48-54_frontNear/0002400.xml,1,1,566078,608,143,1305,953
+vehicle fallback,trailer,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-35-08_frontNear_left/0005160.xml,1,1,566016,1117,377,1920,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_30/0000600.xml,2,2,564828,1,293,778,1018
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_sideLeft_left/0009060.xml,1,1,564604,1,296,722,1077
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-47-52_frontNear_left/0002160.xml,1,2,555594,1,179,663,1016
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0001574.xml,2,2,551725,1098,117,1858,841
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-24_12-52-50/0004799.xml,1,1,550408,2,84,644,939
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-22-00_sideRight/0001680.xml,1,1,548715,1133,382,1917,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000240_r.xml,3,3,547375,1,356,755,1080
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/highquality_16k/15-07-18-upload/2018-02-09_15-4-50-407603_leftImg8bit.xml,7,7,544544,4,333,731,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-26-52_sideRight_right/0007619.xml,1,1,543996,1264,224,1920,1051
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-21-45_sideRight/0006135.xml,5,5,543912,873,517,1920,1035
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_14/0000735.xml,1,1,540992,55,225,686,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000074.xml,1,3,536037,932,0,1522,906
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-04-26_12-40-01_sideLeft/000012_r.xml,1,1,535472,1105,397,1888,1079
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-59-01_sideLeft/000370_r.xml,1,1,523872,1,469,856,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_18-16-55_sideRight/0001800.xml,1,1,521536,2,147,563,1074
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0003750.xml,2,2,521259,1204,354,1920,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/0004800.xml,2,2,516040,1221,168,1899,927
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/000480_r.xml,2,2,515970,1179,221,1913,922
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/rearNear/BLR-2018-05-22_11-54-07_rearNear/0001455.xml,2,2,508640,1,58,544,992
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-01-18_sideRight/000172_r.xml,1,1,505804,1,268,923,815
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006172.xml,1,1,495708,613,131,1218,948
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006175.xml,1,1,488028,605,143,1211,946
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-41-17_sideLeft/0004605.xml,2,3,480636,1,607,1014,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000599.xml,1,3,473470,1029,36,1593,873
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-24_13-02-50/0000037.xml,5,5,471975,1,1,525,899
+vehicle fallback,water tanker,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-30_13-29-45_frontNear_left/0000510.xml,1,1,466011,1350,237,1918,1055
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-31_13-01-28_frontNear/0013875.xml,4,4,464440,1241,398,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_12-24-44_sideRight/0005865.xml,1,1,464200,1368,233,1917,1076
+vehicle fallback,tractor,IDD_Detection/Annotations/frontNear/BLR-2018-05-22_13-13-31_frontNear/000627_r.xml,1,1,461686,252,382,985,1010
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_18-16-55_sideRight/000180_r.xml,1,1,460530,4,174,513,1076
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/0003255.xml,1,1,456270,1190,14,1859,694
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0008700.xml,2,2,454080,547,565,1426,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0008250.xml,1,1,453140,329,477,1143,1032
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_right/0006765.xml,1,2,452900,389,434,1088,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006176.xml,1,1,451269,606,174,1214,914
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006166.xml,1,1,447978,633,142,1223,899
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/0000300.xml,4,4,441040,1325,1,1920,740
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-45-06_sideRight/000504_r.xml,1,1,437900,23,263,777,842
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0001365.xml,2,2,436050,141,279,786,953
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_sideLeft_left/0005100.xml,1,1,435456,987,116,1658,763
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000149.xml,1,1,431970,762,16,1271,862
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-35-08_frontNear_left/0004860.xml,1,1,430599,1377,286,1919,1078
+vehicle fallback,trailer,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-35-08_frontNear_left/0004410.xml,1,1,428821,1167,366,1917,936
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-43-24_sideRight/0004140.xml,1,1,428288,284,181,761,1076
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006152.xml,1,1,428120,671,197,1226,966
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006177.xml,1,1,427935,606,173,1212,877
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-49-32_sideRight/0003120.xml,1,1,427518,488,512,1241,1078
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-59-12_sideRight/0001080.xml,1,1,426886,468,364,1389,826
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006179.xml,1,1,425256,600,109,1210,804
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006178.xml,1,1,420736,601,143,1208,834
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-56-55_sideRight/000780_r.xml,1,1,417091,898,237,1558,867
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001050.xml,1,2,414540,2,491,706,1078
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0007665.xml,3,3,414504,2,2,1369,304
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/0003120.xml,1,1,414315,1084,269,1920,763
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_3_sideRight/000294_r.xml,1,1,413224,764,206,1862,581
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_17/0001424.xml,1,1,412686,200,190,880,795
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-59-12_sideRight/000108_r.xml,1,1,409955,385,354,1285,808
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-04-26_13-30-01/0001573.xml,2,2,409224,1,326,578,1033
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/000775_r.xml,1,1,407982,848,286,1429,986
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_11-40-01_sideRight/0002820.xml,1,1,404874,216,539,962,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_3_sideRight/0002940.xml,1,1,404430,786,194,1890,559
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/0002265.xml,1,2,403585,264,626,1150,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/frontNear/BLR-2018-05-31_13-01-28_frontNear/001072_r.xml,1,1,401037,0,277,506,1067
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-10-31_sideLeft/0004965.xml,2,2,400465,240,562,1032,1066
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_10-49-32_frontNear/0003075.xml,1,1,399126,475,387,1188,945
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-22_11-54-07_frontNear/0001365.xml,1,1,398720,1298,326,1920,965
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/000030_r.xml,5,5,398650,1323,2,1917,671
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-50-18_sideRight/000064_r.xml,1,1,397936,855,1,1918,374
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-26-55_sideRight/000876_r.xml,1,1,397824,924,186,1595,777
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_11-40-01_sideRight/000282_r.xml,1,1,397296,111,529,854,1062
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_40/0000600.xml,1,1,396228,1282,456,1917,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/000864_r.xml,1,1,393754,1295,1,1920,629
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-45-06_sideRight/000714_r.xml,1,1,392010,1026,447,1920,884
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000226_r.xml,3,3,390656,227,633,1098,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_2_sideRight/000882_r.xml,1,1,387933,1544,52,1920,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-45-06_sideRight/000108_r.xml,1,1,384468,1,344,644,940
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-31_13-01-28_frontNear/001387_r.xml,3,3,381730,1328,432,1917,1078
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/0005880.xml,1,1,378432,85,205,660,861
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/HYD-2018-04-26_13-30-01/0005323.xml,2,2,377208,712,1,1387,558
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-41-17_sideLeft/000442_r.xml,2,2,375870,4,570,740,1079
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_10-49-32_frontNear/000307_r.xml,1,2,371700,540,424,1239,954
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-09_12-50-30_sideLeft/0008820.xml,4,4,369660,1,576,732,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/rearNear/BLR-2018-05-31_13-01-28_rearNear/001414_r.xml,1,1,368550,1374,338,1919,1012
+vehicle fallback,trailer,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-15_11-55-11_frontNear_left/0005385.xml,1,2,367830,2,478,611,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-25_09-11-44_frontNear_left/0004560.xml,3,3,367227,0,239,468,1021
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-26-55_sideRight/0008760.xml,1,1,366704,927,225,1614,757
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0008205.xml,2,2,365944,1318,467,1913,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/rearNear/BLR-2018-05-29_11-19-12_rearNear/000843_r.xml,1,1,364620,1,196,412,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-04-26_12-40-01_sideLeft/0000120.xml,1,1,364236,1122,603,1883,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000224.xml,1,2,361552,610,92,1081,857
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006114.xml,1,1,357504,620,227,1151,898
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/000588_r.xml,1,1,357315,49,234,629,848
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-39-44_sideRight/0007350.xml,1,1,356475,767,0,1445,524
+vehicle fallback,street cart,IDD_Detection/Annotations/rearNear/BLR-2018-05-31_13-01-28_rearNear/0014145.xml,1,1,354844,1389,297,1920,963
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/0008640.xml,1,1,354314,1343,4,1920,616
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000051_r.xml,1,1,353408,238,577,941,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000852_r.xml,2,2,352016,1529,1,1920,898
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006076.xml,1,1,350064,617,249,1144,911
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0008835.xml,1,1,349724,648,522,1276,1077
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_37/0000555.xml,1,2,347817,1,408,807,838
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_left/0006765.xml,1,2,345102,443,570,1120,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_15-23-02_sideLeft/000228_r.xml,1,1,344760,645,574,1324,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0007575.xml,3,4,344745,624,592,1328,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-47-52_frontNear_left/0007260.xml,1,1,342630,1189,259,1917,728
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-47-52_frontNear_left/0009660.xml,2,3,340554,3,267,540,899
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-14_13-38-46_frontNear/0003660.xml,1,1,339494,1523,228,1920,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_45/0001320.xml,1,1,338550,3,512,612,1066
+vehicle fallback,tractor,IDD_Detection/Annotations/frontNear/BLR-2018-04-16_15-44-27_frontNear/0007380.xml,1,1,336224,1107,437,1714,989
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-50-18_sideRight/000078_r.xml,1,1,334720,875,2,1920,321
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/000096_r.xml,1,1,334167,982,254,1648,754
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000366_r.xml,2,3,331704,824,673,1636,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_sideRight_right/0001725.xml,2,2,329770,1431,374,1920,1046
+vehicle fallback,tractor,IDD_Detection/Annotations/frontNear/BLR-2018-05-22_13-01-18_frontNear/000172_r.xml,1,1,325959,1311,364,1917,900
+vehicle fallback,tractor,IDD_Detection/Annotations/frontNear/BLR-2018-04-16_15-44-27_frontNear/000738_r.xml,1,1,325872,1126,484,1709,1041
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006000.xml,1,1,325164,660,191,1133,876
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-26-52_sideRight_right/0003250.xml,1,1,322056,610,400,1461,777
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-46-55_sideRight/000792_r.xml,1,1,320716,1514,293,1920,1080
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_30/0000555.xml,1,1,320450,239,332,963,773
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000132_r.xml,2,2,320280,1241,375,1920,845
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001185.xml,1,3,319515,24,486,560,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0006038.xml,1,1,316512,627,254,1130,881
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-44-27_sideRight/0000120.xml,1,4,315900,10,61,659,546
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_rearNear_right/0008025.xml,1,3,315216,938,682,1729,1079
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_16/0000374.xml,1,4,314028,1454,369,1921,1039
+vehicle fallback,tractor,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_11-19-12_frontNear/0000555.xml,1,1,313250,1561,152,1918,1026
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0003660.xml,2,2,312420,948,698,1767,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0001724.xml,5,5,310959,1625,32,1921,1078
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-39-05_sideRight/000510_r.xml,1,1,310271,429,327,1251,703
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0007872.xml,5,5,307768,1,497,527,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_13-04-21_sideRight/0001500.xml,2,3,306540,441,530,1025,1053
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/0005055.xml,1,1,305370,306,586,1007,1020
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_10-49-32_frontNear/0003120.xml,1,1,305254,1368,397,1921,947
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-00-01_sideLeft/000793_r.xml,3,3,304560,1,517,540,1080
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/0000300.xml,3,4,303780,759,98,1490,512
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-04-16_16-14-27_frontNear/0002760.xml,4,4,302505,1,172,335,1074
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_17-16-55_sideLeft/0008100.xml,1,1,301630,490,301,1184,734
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-29-20_sideRight/0004440.xml,1,1,297675,222,382,956,786
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_left/0003014.xml,1,1,297155,1214,262,1728,838
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_2_sideRight/0008820.xml,1,1,296564,1619,99,1920,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000505_r.xml,1,1,296528,276,595,963,1025
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001005.xml,1,5,296390,0,544,553,1078
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-05-08_10-04-13_sideLeft/000456_r.xml,1,1,295630,286,7,755,635
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_10-49-32_frontNear/000312_r.xml,1,1,294320,1401,425,1920,990
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/HYD-2018-04-26_13-30-01/0005173.xml,1,2,293910,586,1,1090,582
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-39-44_sideRight/0007305.xml,1,1,293728,719,1,1266,536
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_17-16-55_sideLeft/000810_r.xml,1,1,293349,517,222,1203,648
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-07_12-01-06_sideLeft/000876_r.xml,1,2,292500,6,523,630,990
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_11-08-34_sideLeft/0002895.xml,1,1,291708,1588,1,1920,876
+vehicle fallback,excavator,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-46-55_sideRight/000678_r.xml,1,1,291332,304,129,1145,474
+vehicle fallback,excavator,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-23-02_sideRight/0002040.xml,1,1,288707,1263,1,1905,449
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-05-08_10-04-13_sideLeft/0004560.xml,1,1,288057,295,1,767,609
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000789_r.xml,1,1,286399,1631,6,1919,996
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-16-55_sideRight/0007320.xml,1,1,286145,4,1,382,755
+vehicle fallback,trailer,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-35-08_frontNear_left/0004560.xml,1,1,285780,1169,392,1828,824
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-26-52_sideRight_right/0007200.xml,1,1,285760,678,656,1437,1031
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-46-55_sideRight/0007920.xml,1,1,285326,1561,282,1918,1078
+vehicle fallback,excavator,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-46-55_sideRight/0006780.xml,1,1,283582,314,118,1152,455
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_49/0001680.xml,1,1,283250,578,1,1092,550
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0005924.xml,1,1,282987,509,197,931,865
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0005820.xml,1,1,282689,3,56,343,884
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000299.xml,2,2,282309,719,159,1135,835
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_17/0001274.xml,1,1,281274,1,320,543,837
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideLeft_right/0003165.xml,1,3,279357,4,444,554,950
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-04-19_17-26-55_frontFar/000672_r.xml,1,1,278070,891,252,1280,964
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000627_r.xml,1,1,276276,1438,288,1920,859
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0007125.xml,1,2,275616,396,553,917,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_17-56-55_sideLeft/0008220.xml,2,2,275528,322,232,1003,635
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0001049.xml,1,5,273760,1625,148,1919,1075
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0005962.xml,1,1,272992,596,203,1044,810
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_17-56-55_sideLeft/000822_r.xml,2,2,270970,338,165,1023,559
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_16/0000393.xml,1,3,270916,1566,320,1921,1080
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/frontNear/BLR-2018-05-17_16-48-54_frontNear/000138_r.xml,1,1,269451,312,426,1130,754
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001275.xml,2,2,269235,1454,364,1918,942
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-34-41_frontNear_left/0007935.xml,1,1,268380,1380,277,1919,773
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000150_r.xml,1,1,267336,754,606,1385,1028
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-01-18_sideLeft/0000375.xml,2,2,267300,26,178,619,627
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0001500.xml,1,1,266900,868,619,1495,1043
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-24-27_frontFar/0005460.xml,1,1,266684,1,327,418,964
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0003954.xml,2,2,266388,1447,435,1920,996
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_46/0000525.xml,2,4,265680,0,290,491,829
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-28-17_sideLeft/000924_r.xml,1,1,264942,1675,1,1920,1077
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/000030_r.xml,4,5,264546,781,27,1401,452
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-19_17-36-55_frontFar/0001320.xml,1,1,264264,969,118,1280,964
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-28-17_sideLeft/000964_r.xml,1,1,263276,1677,1,1920,1079
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_rearNear_left/0005765.xml,2,2,260304,1,380,528,872
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_2_sideLeft/0003540.xml,1,1,258981,1422,390,1920,908
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_2_sideLeft/000354_r.xml,1,1,257346,1428,313,1920,834
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/0008220.xml,3,3,257022,1135,271,1920,597
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/highquality_16k/2018-05-31_13-01-28/2018-05-31_13-10-40-993138_leftImg8bit.xml,1,3,256964,1,440,566,893
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_15-45-06_sideLeft/0002220.xml,1,1,256953,851,227,1733,517
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/000660_r.xml,4,4,255600,461,126,1028,575
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-50-30_sideRight/0007860.xml,2,2,255068,975,654,1656,1027
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-28-17_sideLeft/000960_r.xml,1,1,254880,1685,1,1920,1080
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/HYD-2018-04-26_13-30-01/0005023.xml,2,4,254868,311,1,712,634
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/000822_r.xml,2,2,254847,1116,288,1904,610
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-43-24_sideRight/0003840.xml,1,1,254600,234,745,993,1079
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/0006600.xml,4,4,251704,439,209,1022,639
+vehicle fallback,water tanker,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-24-27_frontFar/000546_r.xml,1,1,251667,1,248,351,964
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41_frontNear_left/0002535.xml,1,2,251384,30,513,565,981
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/0002895.xml,1,1,248965,1132,120,1636,612
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_18/0000224.xml,1,1,247044,52,215,570,690
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-34-27_sideRight/000072_r.xml,2,2,246323,1298,270,1754,808
+vehicle fallback,trailer,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_11-19-12_frontNear/0000600.xml,1,1,246175,1691,0,1919,1074
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0006270.xml,1,1,245520,1481,285,1920,842
+vehicle fallback,street cart,IDD_Detection/Annotations/frontNear/BLR-2018-04-16_15-44-27_frontNear/000846_r.xml,2,2,245310,0,414,369,1076
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0003885.xml,3,3,244488,1,373,501,860
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0001860.xml,1,2,244027,420,372,910,868
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-05-29_sideLeft_left/0008439.xml,1,1,243509,1,1,301,809
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000582_r.xml,1,1,242944,4,76,295,907
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_15-23-02_sideLeft/000432_r.xml,1,1,241996,3,479,406,1077
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_rearNear_left/0005145.xml,1,1,241128,1275,33,1682,623
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_9/0000150.xml,1,1,240516,1459,533,1917,1056
+vehicle fallback,tractor,IDD_Detection/Annotations/rearNear/BLR-2018-05-22_11-54-07_rearNear/0004695.xml,1,2,239275,1,272,425,834
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_49/0001635.xml,1,1,238788,1176,2,1577,595
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/15-07-18-upload/2018-05-14_13-44-44-408725_leftImg8bit.xml,1,1,237896,1,393,454,916
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000186_r.xml,1,2,237626,328,362,809,854
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0003641.xml,1,3,237586,1,480,563,901
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_16/0001150.xml,1,3,236544,1410,1,1921,462
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/0005580.xml,1,1,236158,1220,284,1805,686
+vehicle fallback,tractor,IDD_Detection/Annotations/rearNear/BLR-2018-05-22_11-54-07_rearNear/000469_r.xml,1,1,236135,0,318,414,886
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/0004875.xml,1,1,236028,1415,107,1856,640
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0001860.xml,2,2,235218,696,548,1292,941
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_30/0000956.xml,2,2,234320,1220,1,1623,580
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-07_12-36-24_sideLeft/000708_r.xml,1,1,233602,971,484,1512,914
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_16-22-00_sideLeft/000084_r.xml,2,2,232068,1273,241,1770,706
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/000558_r.xml,1,1,231021,1253,210,1831,608
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_49/0001725.xml,1,1,230656,354,0,777,543
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideLeft_left/0003165.xml,2,2,230337,1,440,449,952
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-30-25_sideLeft/000244_r.xml,1,1,229774,2,202,263,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/rearNear/BLR-2018-06-05_08-28-17_rearNear/000366_r.xml,1,1,229767,28,200,578,616
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-50-30_sideRight/0007860.xml,1,2,229710,1383,1,1876,465
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-39-05_sideRight/000462_r.xml,1,1,227943,1329,391,1917,777
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-07_12-36-24_sideLeft/0007080.xml,1,1,226416,1001,472,1534,895
+vehicle fallback,street cart,IDD_Detection/Annotations/rearNear/BLR-2018-05-22_11-54-07_rearNear/0001050.xml,1,2,223782,1427,556,1920,1008
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-38-46_sideRight/000042_r.xml,1,1,223440,1389,487,1920,906
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-54-41/0007901.xml,2,3,222750,234,492,638,1041
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-35-08_frontNear_left/0009060.xml,5,8,222312,1447,342,1918,812
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-22_13-21-45_frontNear/000276_r.xml,1,1,220110,0,95,289,853
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_right/0006630.xml,7,7,220042,465,546,1002,954
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_11-55-34_frontNear/0007845.xml,1,1,220038,1411,456,1917,889
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/0005460.xml,1,2,220023,880,410,1662,690
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-03-22_17-39-26_3_frontFar/0012480.xml,1,1,219240,1,209,290,964
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000307_r.xml,1,1,217958,1717,1,1918,1079
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-07_12-01-06_sideLeft/000432_r.xml,1,1,216645,1110,473,1614,901
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000524.xml,1,3,216603,886,204,1254,790
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/rearNear/BLR-2018-05-29_11-19-12_rearNear/000433_r.xml,1,3,216597,283,210,693,736
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_left/0006630.xml,1,6,216522,500,539,1022,952
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-54-41/0001946.xml,1,1,216412,1,545,413,1068
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_left/0008059.xml,1,1,215655,507,913,1813,1077
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-23-02_sideRight/0005580.xml,1,1,214775,1297,288,1901,642
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/rearNear/BLR-2018-05-17_16-32-30_rearNear/000558_r.xml,1,1,214560,1599,338,1896,1057
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000568_r.xml,1,1,214032,1297,525,1920,867
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0008095.xml,1,1,212848,1497,421,1920,922
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_14-14-41_frontNear_left/0008310.xml,2,2,210079,60,535,480,1033
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-06-06_16-00-01_frontNear/0003750.xml,2,2,208873,7,346,377,908
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000374.xml,1,1,208658,843,225,1203,802
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000060_r.xml,1,1,208260,1140,211,1529,744
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_12-04-54_sideLeft/001059_r.xml,1,1,207129,1,470,339,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000330_r.xml,1,1,206280,1730,1,1920,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_18-06-55_sideRight/0000060.xml,1,1,205134,22,292,558,673
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-43-24_sideRight/000426_r.xml,1,1,203992,5,267,348,859
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-30-25_sideLeft/000420_r.xml,1,1,203661,709,604,1221,1000
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/0005460.xml,2,2,203454,1384,335,1917,715
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0006900.xml,2,2,203394,831,354,1484,664
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_37/0000285.xml,1,1,203175,17,475,541,861
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_15-45-06_sideLeft/0001740.xml,2,2,202920,539,236,994,680
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-49-32_sideRight/000312_r.xml,1,1,202772,501,770,1152,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/0007125.xml,2,3,202644,0,105,432,572
+vehicle fallback,water tanker,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_36/0000675.xml,1,3,202554,1,391,297,1072
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_09-06-38_sideRight/001513_r.xml,1,1,202176,802,1,1217,486
+vehicle fallback,trailer,IDD_Detection/Annotations/frontNear/BLR-2018-05-22_13-21-45_frontNear/000285_r.xml,1,1,201550,2,540,696,829
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideLeft_right/0004695.xml,3,4,201476,964,502,1445,919
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000690_r.xml,2,2,201274,739,347,1379,660
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0000885.xml,2,2,201146,1,327,451,772
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_42/0001410.xml,1,1,201096,1,566,392,1078
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000334_r.xml,1,1,200880,1735,1,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_18-06-55_sideRight/000006_r.xml,1,1,200880,1,310,540,681
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_43/0000960.xml,1,1,200263,1492,355,1918,823
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41/0006461.xml,1,1,200214,18,493,471,933
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_30/0001078.xml,2,2,200152,1414,502,1921,895
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_18/0001050.xml,2,2,200032,1389,600,1920,975
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-38-46_sideRight/000810_r.xml,1,1,199525,1261,626,1835,972
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000793_r.xml,1,1,199500,1541,556,1920,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideRight_right/0001050.xml,2,2,199398,460,636,960,1033
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-06-05_09-06-38_frontNear/001023_r.xml,1,1,199080,1558,1,1917,553
+vehicle fallback,trailer,IDD_Detection/Annotations/frontFar/BLR-2018-03-22_17-39-26_2_frontFar/0006960.xml,1,1,199025,5,412,423,886
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0003300.xml,2,2,198850,944,284,1353,768
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-07_12-01-06_sideLeft/0004320.xml,1,1,198768,1148,491,1639,894
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000325_r.xml,1,1,198720,1737,1,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/000546_r.xml,1,2,198661,946,340,1718,596
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-26_13-40-01_sideRight/0000960.xml,1,1,197880,1025,2,1704,292
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001185.xml,3,3,197472,1567,380,1918,940
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0000600.xml,1,1,197024,1157,209,1532,732
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/000667_r.xml,1,2,196712,2,211,368,746
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/0013380.xml,1,1,196452,776,250,1234,677
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41/0004124.xml,4,4,196230,47,524,468,988
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_09-06-38_sideRight/001023_r.xml,1,1,195776,593,7,960,538
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-16_15-34-27/0006114.xml,1,1,195453,1205,478,1717,858
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000316_r.xml,1,1,195090,1711,1,1920,929
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-44-09_sideRight/000834_r.xml,1,1,195000,1397,703,1916,1077
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000145_r.xml,1,1,194304,989,586,1540,937
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-26-52_sideRight_right/0006793.xml,1,1,193617,46,778,684,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0001455.xml,2,2,193200,1092,610,1651,954
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_12-04-54_sideRight/0009915.xml,1,1,192618,915,291,1436,659
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-07_12-01-06_sideLeft/000444_r.xml,1,1,192231,2,315,404,791
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_12-24-44_sideRight/000361_r.xml,1,1,191784,1189,819,1920,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-05-29_sideLeft_right/0008783.xml,1,1,190350,535,287,984,709
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-01-18_sideLeft/0000240.xml,4,4,188625,375,307,877,681
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-01-18_sideLeft/0000285.xml,2,4,188100,383,297,877,676
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-44-27_frontFar/0013860.xml,1,1,187776,878,367,1261,855
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41_frontNear_left/0001260.xml,1,3,187530,1,752,570,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/000690_r.xml,1,1,187473,437,157,865,593
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-34-41/0001810.xml,6,7,187346,1,513,331,1078
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-59-01_sideLeft/000078_r.xml,1,1,187332,1024,286,1489,687
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/000546_r.xml,2,2,187289,1442,247,1920,637
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0006000.xml,1,1,187054,1437,570,1867,1003
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000073_r.xml,1,1,186872,1592,395,1920,962
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000600_r.xml,3,3,186623,1326,557,1758,987
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/000708_r.xml,1,2,186480,480,167,983,536
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-31_13-01-28_sideRight/001387_r.xml,2,2,186150,192,503,616,940
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/000450_r.xml,1,1,185932,1733,1,1920,989
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000213_r.xml,1,1,184943,1133,288,1523,760
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/000660_r.xml,3,4,184644,1226,211,1894,486
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_12-04-54_sideRight/000996_r.xml,1,1,184539,1509,275,1919,723
+vehicle fallback,street cart,IDD_Detection/Annotations/rearNear/BLR-2018-05-07_12-36-24_rearNear/000252_r.xml,1,1,184440,14,407,448,830
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_16-39-05_sideLeft/000078_r.xml,1,3,184008,1,274,492,647
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-28-17_sideLeft/000123_r.xml,3,4,183830,902,351,1494,660
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_22/0000449.xml,1,4,183458,898,238,1238,775
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-08_09-58-25_sideRight/000252_r.xml,1,1,183260,1151,843,1920,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-03-22_17-39-26_3_frontFar/000306_r.xml,2,2,183192,873,416,1280,864
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-06_16-20-12/0003077.xml,4,4,182937,1237,789,1869,1077
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/000450_r.xml,1,1,182368,559,546,1114,873
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-54-41/0003446.xml,1,1,182308,1534,500,1916,975
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000870_r.xml,1,1,181720,1,845,770,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-47-52_frontNear_left/0000210.xml,2,3,181653,817,584,1217,1036
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000127_r.xml,2,2,181200,753,416,1352,717
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/0002130.xml,1,1,181159,1170,277,1552,749
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-12-45_sideRight/000564_r.xml,1,1,181116,887,215,1445,538
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/2018-05-31_13-01-28/2018-05-31_13-17-11-617460_leftImg8bit.xml,2,2,180846,283,517,676,975
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/0003420.xml,1,1,179536,1056,101,1447,558
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-49-25_sideLeft/0002880.xml,1,1,179413,39,443,519,815
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_rearNear_right/0007980.xml,1,2,178808,976,667,1409,1078
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/0006600.xml,3,4,177271,1207,288,1865,556
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-34-41/0001832.xml,9,10,177120,1,541,328,1080
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000136_r.xml,1,1,176788,1386,348,1843,733
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0003525.xml,1,1,175500,1472,165,1822,664
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_32/0001635.xml,2,5,175439,2,539,390,989
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-13-31_sideRight/000190_r.xml,1,1,175392,1360,591,1823,968
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-47-52_frontNear_left/0000060.xml,2,3,175050,1017,570,1405,1019
+vehicle fallback,trailer,IDD_Detection/Annotations/frontNear/BLR-2018-05-22_13-21-45_frontNear/0002850.xml,2,2,175032,1,504,612,789
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41_frontNear_left/0003660.xml,1,1,174555,109,526,513,956
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000069_r.xml,1,2,174537,1085,439,1535,825
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001140.xml,1,4,174305,426,516,780,1006
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-59-01_sideLeft/0003660.xml,2,2,174020,939,284,1390,668
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0001073.xml,2,5,173978,1,497,301,1074
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000487_r.xml,1,1,173706,1403,257,1844,649
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_12-04-54_sideRight/000991_r.xml,1,1,173346,823,275,1341,608
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/000123_r.xml,1,2,173313,1110,305,1550,697
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-59-01_sideLeft/0000780.xml,1,1,173048,1050,282,1495,669
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41_frontNear_left/0000885.xml,3,3,172974,80,550,460,1003
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/0004500.xml,1,1,172848,603,550,1156,861
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/000342_r.xml,1,1,172770,1029,127,1418,569
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/000685_r.xml,1,1,172598,489,163,910,571
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_16-14-27_frontFar/001464_r.xml,1,1,172172,917,366,1280,838
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/0002490.xml,2,2,172000,1385,414,1784,843
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000186_r.xml,2,2,171680,592,606,1183,895
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0008843.xml,2,3,171380,106,451,485,901
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0001622.xml,3,4,171080,123,489,486,958
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0008160.xml,2,2,171080,1557,467,1920,936
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/0002400.xml,2,2,170955,582,261,1236,521
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0008745.xml,2,2,170884,982,493,1340,968
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-28-17_sideLeft/000451_r.xml,1,1,170748,1,163,186,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001230.xml,1,4,170649,0,476,282,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_42/0001365.xml,1,1,169164,359,458,802,838
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/0007560.xml,2,2,169070,1223,174,1805,463
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-16_16-14-27/0002779.xml,5,5,169060,26,421,453,815
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-05-29/0006706.xml,3,3,168810,1,571,331,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_2_sideLeft/000492_r.xml,1,2,168672,1080,278,1751,528
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-34-27_sideRight/0000660.xml,1,1,168508,1139,369,1550,777
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_1_sideLeft/000096_r.xml,1,1,167754,1134,220,1571,602
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/0001230.xml,2,2,167520,1079,290,1427,769
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/000123_r.xml,2,2,167143,1045,323,1405,785
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_1_sideLeft/0000960.xml,1,1,166934,1123,286,1559,667
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0003705.xml,3,3,166830,609,502,1106,836
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideRight_right/0001050.xml,1,2,165640,263,573,767,900
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/0002265.xml,2,2,165636,1051,500,1437,927
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0008790.xml,2,2,165503,940,484,1316,922
+vehicle fallback,trailer,IDD_Detection/Annotations/frontFar/BLR-2018-03-22_17-39-26_2_frontFar/000696_r.xml,1,1,164840,1,325,317,844
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideLeft_left/0000105.xml,1,1,164772,1,667,398,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0004194.xml,1,1,164749,1381,520,1757,956
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000249_r.xml,2,2,164248,1358,428,1749,846
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_09-06-38_sideLeft/0014955.xml,1,1,163954,1,6,686,244
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/000240_r.xml,2,2,163800,570,285,1219,536
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/000676_r.xml,1,1,163530,487,168,900,562
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/15-07-18-upload/0014859.xml,7,10,162432,849,200,1280,575
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/000036_r.xml,1,1,160615,4,162,356,616
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_15/0001620.xml,1,1,160017,143,708,571,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_39/0000450.xml,2,2,159844,5,723,453,1078
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000370_r.xml,3,3,159736,512,490,998,817
+vehicle fallback,bulldozer,IDD_Detection/Annotations/rearNear/BLR-2018-05-22_13-13-31_rearNear/000361_r.xml,1,1,159642,1257,275,1618,715
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/000672_r.xml,1,1,159528,525,167,932,557
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0000904.xml,1,1,158710,1,543,295,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-01-18_sideRight/0005910.xml,1,1,157794,3,373,444,729
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-31_13-01-28_sideLeft/001338_r.xml,1,1,157734,759,265,1139,678
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-21-45_sideRight/0002805.xml,1,1,157584,593,324,984,725
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30/0005692.xml,2,6,156816,1144,436,1791,677
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_rearNear_left/0008925.xml,4,5,156524,506,429,941,787
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-01-18_sideLeft/000141_r.xml,1,1,156400,1071,180,1470,570
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000321_r.xml,1,1,155250,1768,10,1917,1044
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_2_sideLeft/0004920.xml,1,2,155232,1046,343,1717,573
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0005775.xml,2,3,155078,709,224,1079,641
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_32/0001680.xml,4,4,154967,4,538,356,976
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_right/0006720.xml,1,2,154912,749,465,1160,840
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-06_16-00-01_sideLeft/000015_r.xml,1,3,154368,1390,159,1791,542
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/0002940.xml,1,1,154360,732,301,1411,527
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-34-27_sideRight/000066_r.xml,1,1,154050,1106,388,1500,777
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_rearNear_left/0002681.xml,1,1,153714,3,668,376,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001230.xml,3,4,153664,1695,292,1918,977
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/000294_r.xml,1,1,153452,714,313,1389,539
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/000694_r.xml,1,1,153435,0,115,264,693
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0003960.xml,2,2,153374,1574,530,1920,971
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-01-18_sideLeft/0001410.xml,1,1,153223,1076,181,1488,551
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_16/0000299.xml,1,2,153200,1415,430,1797,829
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideLeft_left/0004695.xml,2,2,153117,1000,593,1476,913
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41/0003648.xml,2,2,153032,154,526,529,932
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_left/0006720.xml,1,2,152766,776,459,1189,827
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-04-19_17-46-55_frontNear/000786_r.xml,2,2,152334,46,801,591,1079
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_sideLeft_left/0003255.xml,2,4,152051,95,287,477,683
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_35/0001545.xml,1,2,152019,490,401,888,781
+vehicle fallback,trailer,IDD_Detection/Annotations/frontNear/BLR-2018-04-19_18-06-55_frontNear/000006_r.xml,1,1,151638,1541,561,1921,958
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-24-27_sideRight/0001080.xml,1,2,150965,209,329,753,605
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-12-45_sideRight/000048_r.xml,1,1,150337,619,88,1487,260
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-15_11-55-11_frontNear_left/0000510.xml,1,1,150304,1493,288,1919,639
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-01-18_sideLeft/0000195.xml,4,4,150280,516,305,957,644
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-54-27_frontFar/001380_r.xml,1,1,150024,938,258,1219,789
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-01-18_sideRight/0006225.xml,1,1,149868,1411,566,1824,927
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_09-06-38_sideRight/0015045.xml,1,2,149814,466,2,726,575
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-28-17_sideLeft/000123_r.xml,4,4,149139,1,396,219,1076
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-06_16-20-12/0005235.xml,8,8,148995,1,766,473,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-29-20_sideRight/0004800.xml,4,4,148362,699,534,1172,846
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-21-45_sideRight/0006135.xml,1,5,147966,100,430,645,700
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0007260.xml,3,3,147840,1473,216,1920,545
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000577_r.xml,2,3,147820,669,261,1057,640
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-24-27_sideRight/000108_r.xml,2,2,147420,186,343,731,612
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_14-09-20_sideLeft_right/0000780.xml,2,2,147088,746,487,1209,803
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-06-06_16-00-01_frontNear/0003795.xml,2,2,146900,4,322,229,971
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_14-09-20_sideLeft_left/0000780.xml,1,1,146880,781,477,1239,796
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-13-31_sideRight/000046_r.xml,1,1,146823,1360,560,1808,886
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0001058.xml,2,3,146520,254,528,613,934
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0008745.xml,2,2,145950,2,731,418,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-26-52_sideRight_right/0004701.xml,1,1,145796,1284,826,1857,1079
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_11/0001230.xml,3,4,145515,1,812,545,1078
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0004360.xml,1,1,145083,257,445,609,855
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_11/0001185.xml,2,3,145055,416,745,848,1079
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_3_sideRight/000096_r.xml,1,1,145017,1106,203,1474,595
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0006945.xml,1,1,144771,238,459,688,779
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-24-27_sideRight/0001020.xml,3,4,144690,1352,279,1881,551
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-24_13-42-50/0004863.xml,1,1,144570,223,371,617,736
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001095.xml,1,4,144431,626,518,954,956
+vehicle fallback,excavator,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-46-55_sideRight/000684_r.xml,1,1,144326,1579,223,1916,649
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideRight_left/0001316.xml,2,2,143948,1532,710,1919,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/0007440.xml,2,2,143808,431,260,1102,473
+vehicle fallback,trailer,IDD_Detection/Annotations/frontNear/BLR-2018-04-19_18-06-55_frontNear/0000060.xml,1,1,143637,1543,524,1919,904
+vehicle fallback,crane,IDD_Detection/Annotations/frontNear/BLR-2018-06-05_09-06-38_frontNear/0015045.xml,2,3,143379,1258,6,1524,542
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-29-20_sideRight/000372_r.xml,2,3,143317,1328,513,1724,873
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideRight_left/0008790.xml,1,1,143080,1529,594,1920,958
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-50-18_sideRight/0000195.xml,1,1,142416,69,330,455,697
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_09-06-38_sideLeft/001495_r.xml,1,1,142071,1,1,667,213
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0003750.xml,1,2,141928,702,531,1153,844
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-13-31_sideRight/0000465.xml,1,1,140895,1456,601,1920,903
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-54-27_sideLeft/0004680.xml,1,1,140700,1518,375,1919,724
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41_frontNear_left/0001635.xml,4,4,140572,1,457,226,1078
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0003660.xml,1,1,140149,1,442,269,962
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_3_sideRight/0000960.xml,1,1,139978,1145,208,1502,598
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideLeft_left/0005280.xml,1,2,139430,402,565,766,946
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_43/0001455.xml,2,2,139320,1,48,135,1079
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_13-04-21_sideRight/0001500.xml,1,3,139181,298,539,710,875
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_34/0001680.xml,2,4,139108,335,748,753,1079
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-24-27_sideRight/0000300.xml,1,1,138574,411,400,796,758
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/000774_r.xml,2,2,138510,1,355,405,696
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-44-09_sideRight/0008340.xml,1,1,137632,1530,729,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000303_r.xml,1,1,137592,1774,1,1920,936
+vehicle fallback,bulldozer,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_12-04-54_sideRight/0009960.xml,1,1,137460,1605,318,1920,752
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_sideLeft_right/0000105.xml,1,1,137352,4,691,357,1078
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/000456_r.xml,1,1,137295,1372,300,1776,638
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_2_sideLeft/000384_r.xml,1,1,137111,353,280,1041,478
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-01-18_sideRight/000861_r.xml,2,2,136629,888,569,1310,891
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-24_12-52-50/0004761.xml,3,3,136514,447,351,789,748
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_17-46-55_sideRight/0006840.xml,1,1,135337,1597,217,1919,635
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-14_13-29-20_sideLeft/0004560.xml,1,1,135192,1389,290,1781,633
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-01-18_sideLeft/0004470.xml,1,1,135142,745,490,1138,832
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-54-27_sideLeft/000468_r.xml,1,1,134848,1529,294,1920,637
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_44/0000420.xml,1,2,134784,250,730,633,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-06-06_16-00-01_frontNear/0004245.xml,1,1,134392,3,327,216,954
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-34-41/0001810.xml,5,7,133852,352,541,658,976
+vehicle fallback,trailer,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-39-05_sideRight/000456_r.xml,1,1,133584,757,390,1284,642
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0007872.xml,4,5,133227,345,513,683,905
+vehicle fallback,bulldozer,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-26_13-47-52_frontNear_left/0007560.xml,3,5,132800,1242,324,1561,738
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_17/0001349.xml,1,1,132696,1,313,388,654
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-24_13-02-50/0007930.xml,2,2,132587,29,570,431,898
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_rearNear_right/0005775.xml,3,3,132447,337,363,707,719
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_28/0001140.xml,2,2,132300,4,505,318,924
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-19_17-56-55_frontFar/000108_r.xml,1,1,131892,1,296,379,643
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-29-20_sideRight/0005580.xml,1,1,131868,318,372,713,704
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0007305.xml,2,3,131698,1419,589,1827,910
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/2018-05-31_13-01-28/2018-05-31_13-3-38-353067_leftImg8bit.xml,1,1,131285,248,739,632,1079
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-08_09-58-25_sideRight/0002520.xml,1,1,131182,1308,867,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-23_12-45-57_frontNear/000006_r.xml,1,1,130819,1538,443,1914,789
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0001276.xml,5,5,130680,103,565,465,924
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-19_17-36-55_frontFar/000492_r.xml,1,1,130650,879,95,1280,419
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-39-44_sideLeft/000406_r.xml,1,1,130500,1771,89,1920,958
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0002940.xml,1,2,130169,752,537,1154,859
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_2/0000959.xml,1,1,130050,79,377,528,665
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_16-39-05_sideLeft/000018_r.xml,1,1,129331,1,243,283,699
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0000960.xml,1,3,129129,1,558,301,986
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_30/0001181.xml,1,1,129024,1341,381,1916,604
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_33/0001140.xml,4,4,128986,1633,411,1918,861
+vehicle fallback,trailer,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-16_15-34-27/0005386.xml,1,1,128838,587,521,980,847
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_sideLeft_left/0003300.xml,1,1,128520,718,364,1074,723
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/0013650.xml,1,1,128520,650,243,1189,480
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-06_16-41-17/0006717.xml,2,2,128250,58,738,532,1007
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-34-41/0002629.xml,1,1,128040,0,515,329,902
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0007860.xml,4,4,128020,336,531,681,900
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41_frontNear_left/0001185.xml,3,3,128002,1,507,223,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/000030_r.xml,2,5,128000,654,68,1153,323
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-54-41_frontNear_left/0001935.xml,2,2,127734,239,517,587,882
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-06-05_09-06-38_frontNear/001014_r.xml,1,1,127680,1300,1,1523,570
+vehicle fallback,water tanker,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideRight_right/0005961.xml,1,1,127585,255,330,649,652
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_17-36-55_sideLeft/0006840.xml,1,1,127296,916,500,1323,811
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-49-32_sideLeft/0007080.xml,2,3,127203,599,194,987,520
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-29_11-08-34_frontNear/000330_r.xml,1,1,127152,1777,198,1920,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/0004500.xml,1,1,127015,1788,1,1920,955
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_15-23-02_sideLeft/000534_r.xml,1,1,126546,2,686,323,1078
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41/0000912.xml,4,4,125955,326,589,636,993
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_left/0008239.xml,1,1,125832,96,437,487,757
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-01-18_sideRight/000622_r.xml,1,1,125832,1302,612,1729,905
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_2_sideLeft/0003840.xml,1,1,125795,285,363,979,543
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0003616.xml,2,3,125421,280,502,710,792
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0006720.xml,1,2,125244,850,663,1346,914
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000069_r.xml,2,2,125001,832,500,1218,822
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-54-41_frontNear_left/0003435.xml,3,4,124830,1336,491,1677,855
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_17-36-55_sideLeft/000306_r.xml,1,1,124338,1530,149,1920,466
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0005775.xml,3,3,123933,1050,197,1376,575
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_11-08-34_sideLeft/0002355.xml,1,2,123888,1,597,348,952
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-29-20_sideRight/000558_r.xml,1,1,123872,221,362,612,677
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/0003300.xml,1,1,123857,1,1,211,587
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_16-14-27_frontFar/0014640.xml,2,2,123670,983,433,1280,847
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_25/0000752.xml,1,2,122534,104,672,497,982
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-24-27_sideRight/000030_r.xml,1,1,122130,405,421,758,765
+vehicle fallback,water tanker,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideRight_right/0005871.xml,1,3,121390,332,315,729,619
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-03-22_17-39-26_3_frontFar/000816_r.xml,1,1,121260,1023,345,1280,814
+vehicle fallback,trailer,IDD_Detection/Annotations/frontNear/BLR-2018-03-22_17-39-26_2_frontNear/000348_r.xml,1,1,120818,468,567,853,879
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0005886.xml,2,2,120510,456,401,764,790
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41/0006455.xml,1,1,120479,200,501,522,873
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/0007080.xml,1,1,120456,772,256,1275,494
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_09-06-38_sideLeft/0003075.xml,1,1,120373,2,261,342,613
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_09-06-38_sideLeft/001189_r.xml,1,1,120360,256,1,845,204
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-06-05_08-50-18_frontNear/000019_r.xml,1,1,120213,994,358,1354,690
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-34-41/0001832.xml,10,10,120170,343,539,647,932
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_rearNear_right/0008070.xml,1,3,119930,1582,722,1916,1079
+vehicle fallback,tractor-water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_16-39-05_sideRight/000504_r.xml,1,1,119848,238,371,805,581
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-44-27_sideRight/000756_r.xml,1,2,119412,1175,181,1732,394
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideRight_right/0008792.xml,1,1,119368,1573,640,1919,983
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/rearNear/BLR-2018-06-05_08-50-18_rearNear/0009285.xml,1,1,119301,3,643,275,1079
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_47/0001313.xml,1,2,118755,193,539,453,993
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-05-53-14_part_5/0001056.xml,1,5,118608,219,298,571,633
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-31_13-01-28_frontNear/0011985.xml,1,1,118502,1727,465,1919,1078
+vehicle fallback,street cart,IDD_Detection/Annotations/frontNear/BLR-2018-03-22_17-39-26_2_frontNear/0003480.xml,1,1,118300,479,520,842,844
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_10-59-01_sideLeft/0004335.xml,2,2,118300,1175,411,1512,760
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_23/0001499.xml,4,4,118295,1,489,401,783
+vehicle fallback,excavator,IDD_Detection/Annotations/sideRight/BLR-2018-05-17_15-23-02_sideRight/000204_r.xml,1,1,118048,1362,1,1837,248
+vehicle fallback,trailer,IDD_Detection/Annotations/frontFar/BLR-2018-03-22_17-39-26_3_frontFar/0003060.xml,2,2,117986,935,478,1280,818
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0003735.xml,1,1,117869,1228,414,1538,792
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0003610.xml,3,3,117576,336,500,749,783
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_35/0001455.xml,1,2,117504,518,443,901,748
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/000750_r.xml,1,1,117114,1656,67,1917,513
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_13-02-17/0004086.xml,1,1,116920,235,541,530,935
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_left/0007193.xml,2,2,116886,184,336,645,588
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_35/0001365.xml,1,2,116724,418,468,843,741
+vehicle fallback,excavator,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/000750_r.xml,1,1,116616,1450,299,1901,556
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-59-01_sideRight/000564_r.xml,1,1,116380,923,550,1428,779
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_35/0001410.xml,1,2,116314,433,444,806,754
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0002743.xml,2,2,116291,283,735,731,993
+vehicle fallback,excavator,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_16-14-27_sideRight/0007500.xml,1,1,116032,1459,288,1906,546
+vehicle fallback,water tanker,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-24_12-52-50/0002719.xml,1,2,115948,301,500,874,701
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0007860.xml,3,4,115599,428,478,768,816
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_30/0001031.xml,2,2,115425,1696,1,1920,513
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_37/0000510.xml,2,3,115416,377,496,880,724
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0000754.xml,5,5,115320,279,521,588,892
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000577_r.xml,1,3,115198,326,463,803,703
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-23_13-31-36/2018-05-23_13-32-18-467934_leftImg8bit.xml,1,1,114948,183,304,461,715
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-24-27_frontFar/0000840.xml,1,1,114848,80,438,467,733
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_13-04-21_sideRight/0001500.xml,3,3,114821,1368,751,1716,1079
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_12/0000674.xml,1,2,114798,22,467,339,827
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontNear/BLR-2018-05-31_13-01-28_frontNear/001455_r.xml,2,2,114720,1679,601,1918,1078
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/0000195.xml,1,1,114654,288,346,878,539
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/000660_r.xml,2,2,114609,741,193,1193,445
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_16-32-30_sideLeft/000336_r.xml,1,1,114380,1442,290,1707,719
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_35/0001500.xml,1,2,114180,525,423,854,768
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-24-27_frontFar/000084_r.xml,1,1,114000,9,366,383,669
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_30/0000510.xml,1,2,113701,595,457,1033,715
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/0006060.xml,1,1,113549,926,336,1344,606
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_3_sideLeft/000300_r.xml,1,1,113245,1566,225,1920,543
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000577_r.xml,3,3,113076,1005,221,1328,569
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_right/0006630.xml,6,7,112887,1022,430,1360,762
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_35/0000330.xml,4,4,112875,1814,1,1918,1075
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/000684_r.xml,2,2,112800,1317,262,1796,496
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_18-06-55_sideRight/000012_r.xml,1,1,112752,1660,411,1920,842
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-21-45_sideLeft/000019_r.xml,1,1,112710,290,352,867,546
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_15-23-02_sideLeft/0002280.xml,1,1,112554,944,698,1281,1030
+vehicle fallback,tractor,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_12-52-17/0005392.xml,1,1,112378,69,546,417,867
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-34-27_sideRight/000714_r.xml,2,2,112378,131,337,828,497
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/0000360.xml,1,1,111752,0,226,243,683
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-06-05_08-50-18_sideRight/000019_r.xml,1,1,111740,5,332,374,633
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_11-08-34_sideLeft/0003120.xml,1,1,111708,1805,1,1920,963
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/000606_r.xml,1,1,111488,979,259,1394,526
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_17-36-55_sideLeft/000684_r.xml,1,1,111456,941,465,1327,752
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-01-18_sideRight/000591_r.xml,2,3,111412,33,371,354,716
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-19_17-56-55_frontFar/0001080.xml,1,1,111220,106,376,437,710
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_30/0000881.xml,2,3,111186,1069,1,1281,522
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_sideLeft_right/0003249.xml,1,4,111150,327,313,668,637
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41/0004724.xml,2,3,111078,1,655,363,960
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-01-18_sideRight/001032_r.xml,1,1,110781,1545,717,1917,1013
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41_frontNear_left/0000885.xml,1,4,110676,482,560,757,960
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/0007500.xml,1,1,110594,1679,59,1920,515
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/0006840.xml,2,2,110432,1293,334,1785,557
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_10-49-32_sideRight/0003165.xml,2,2,110424,1373,511,1716,831
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/000756_r.xml,2,3,110162,858,114,1303,360
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000775_r.xml,1,1,109445,1626,710,1920,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-38-46_sideRight/000798_r.xml,1,1,109080,814,549,1173,851
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0001336.xml,1,1,109048,135,537,451,880
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideLeft_left/0006630.xml,2,6,108896,1057,434,1384,765
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-14_13-59-12_sideRight/0001920.xml,1,1,108773,1530,481,1908,767
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_1_sideLeft/0003660.xml,1,2,108003,1040,240,1456,498
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-02_16-47-59/0003899.xml,3,3,107690,1,839,445,1080
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_16/0000599.xml,1,1,107584,1442,444,1769,771
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-19-06-21-44_part_11/0000749.xml,2,10,107570,1,639,310,985
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/0007740.xml,2,2,107568,1,422,332,745
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/000576_r.xml,1,1,107565,41,219,545,431
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0003534.xml,4,5,107548,280,510,613,831
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_16-14-27_sideLeft/000756_r.xml,3,3,107514,1253,108,1614,404
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/000406_r.xml,2,2,107360,1073,243,1377,594
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-44-27_sideRight/0007560.xml,3,3,107004,1185,160,1666,381
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/15-07-18-upload/2018-03-14_15-47-0-200733_leftImg8bit.xml,4,5,106680,1255,454,1674,707
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/rearNear/BLR-2018-06-05_08-50-18_rearNear/0009330.xml,1,1,106677,1,641,243,1079
+vehicle fallback,tractor,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_1_sideLeft/0003720.xml,1,1,106457,1044,285,1474,531
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_47/0000510.xml,1,1,106420,234,691,573,1003
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0007305.xml,1,3,106340,523,532,931,791
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41/0003474.xml,6,8,106276,366,532,691,857
+vehicle fallback,excavator,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_1_sideLeft/000366_r.xml,2,2,106172,1067,192,1484,445
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_14-14-41_frontNear_left/0000060.xml,5,5,106145,0,568,298,922
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0003705.xml,2,3,105987,267,333,575,675
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-54-41_frontNear_left/0000060.xml,1,1,105922,1670,408,1920,829
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41_frontNear_left/0004860.xml,3,3,105840,161,535,475,870
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-09_12-20-55_sideRight/0002880.xml,2,2,105671,1670,660,1920,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_14/0000690.xml,1,1,105558,677,457,917,894
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_21/0001500.xml,1,1,105462,58,706,435,984
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-44-27_sideRight/000762_r.xml,3,4,105408,1332,219,1763,462
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/2018-05-31_11-10-16/2018-05-31_11-12-17-383921_leftImg8bit.xml,2,4,105300,1541,776,1891,1075
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-25_13-08-39_frontNear_left/0001560.xml,6,6,105248,1366,633,1781,885
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_8/0000899.xml,1,1,105090,7,224,316,562
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-34-27_sideLeft/000828_r.xml,1,1,104940,830,178,1147,507
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-34-41/0002634.xml,1,1,104920,2,518,306,861
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-05_13-02-17/0007525.xml,1,1,104607,1742,480,1918,1070
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-26_12-40-01_frontFar/0014280.xml,2,2,104410,1083,433,1279,962
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_16-32-30_sideLeft/0004260.xml,1,1,104397,1293,491,1683,757
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_11-54-07_sideLeft/000226_r.xml,2,3,104346,1016,592,1321,932
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideRight/BLR-2018-04-16_15-44-27_sideRight/0007680.xml,2,2,104280,1054,192,1383,507
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_rearNear_left/0002307.xml,1,1,104076,1,726,294,1079
+vehicle fallback,tractor,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0004650.xml,1,1,103887,1,330,357,620
+vehicle fallback,trailer,IDD_Detection/Annotations/rearNear/BLR-2018-05-17_16-39-05_rearNear/0005640.xml,1,1,103863,723,343,1111,609
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/0003660.xml,1,2,103806,273,569,710,805
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_rearNear_left/0002622.xml,1,1,103680,1,721,288,1080
+vehicle fallback,tractor,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-24-27_frontFar/000540_r.xml,1,1,103668,235,319,552,644
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_rearNear_left/0002487.xml,1,1,103660,2,716,285,1080
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_8/0001499.xml,1,1,103648,12,234,339,549
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_rearNear_left/0002397.xml,1,1,103545,3,729,297,1079
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-16_15-44-27_frontFar/000018_r.xml,5,5,103500,981,230,1280,574
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_13-13-31_sideRight/000204_r.xml,1,1,103251,1540,542,1920,812
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-05-22_13-13-31_sideLeft/0005775.xml,1,3,103056,356,464,807,691
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-03-22_17-39-26_1_sideRight/0008280.xml,1,2,102920,2,233,333,542
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-04-26_13-00-01_sideLeft/000678_r.xml,2,2,102846,563,453,928,733
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41/0005571.xml,3,3,102760,268,701,634,980
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-24-41/0003640.xml,3,4,102696,294,515,557,903
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/BLR-2018-04-02_16-47-59/0004349.xml,1,2,102595,329,529,617,883
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/0000300.xml,2,4,102400,612,165,1123,364
+vehicle fallback,water tanker,IDD_Detection/Annotations/sideLeft/BLR-2018-04-16_15-44-27_sideLeft/0000300.xml,1,4,102172,343,35,698,321
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_rearNear_left/0002442.xml,1,1,101885,1,725,287,1079
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_8/0001724.xml,1,1,101761,2,231,320,549
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/0000180.xml,1,1,101757,1600,455,1920,771
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_8/0001349.xml,1,1,101712,9,228,320,553
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0003960.xml,1,2,101664,1268,534,1620,821
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-15-50_sideLeft_right/0007920.xml,1,3,101640,1,667,330,974
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-04-19_18-06-55_sideRight/0000120.xml,1,1,101640,1690,399,1920,838
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-03_14-39-45_sideRight_right/0008205.xml,4,4,101403,1750,330,1920,922
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-29_11-08-34_sideLeft/0003975.xml,1,1,101388,1819,1,1920,994
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-54-07_sideRight/000046_r.xml,1,1,101235,1666,602,1920,998
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-53-01_rearNear_left/0002217.xml,1,1,101232,2,739,297,1080
+vehicle fallback,street cart,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41_frontNear_left/0001335.xml,1,1,101202,164,543,466,876
+vehicle fallback,excavator,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-29-10-07-38_part_35/0001320.xml,1,2,101156,412,503,829,744
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_8/0001274.xml,1,1,101115,6,233,320,553
+vehicle fallback,crane,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-22-05-05-26_part_8/0001574.xml,1,1,101108,5,231,318,552
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideRight/BLR-2018-05-29_11-19-12_sideRight/000163_r.xml,1,1,100890,500,489,784,842
+vehicle fallback,street cart,IDD_Detection/Annotations/sideRight/BLR-2018-05-22_11-44-09_sideRight/000613_r.xml,2,3,100814,1156,496,1534,761
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-04-19_18-06-55_sideLeft/0005760.xml,1,1,100749,2,285,474,497
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-14-41_frontNear_left/0002760.xml,2,2,100738,1,840,418,1080
+vehicle fallback,trailer,IDD_Detection/Annotations/sideLeft/BLR-2018-03-22_17-39-26_3_sideLeft/0003000.xml,1,1,100584,1540,348,1920,611
+vehicle fallback,street cart,IDD_Detection/Annotations/sideLeft/BLR-2018-06-05_08-50-18_sideLeft/000667_r.xml,2,2,100548,827,233,1168,526
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/frontFar/BLR-2018-04-19_17-26-55_frontFar/001026_r.xml,1,1,100499,795,304,1087,646
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/sideLeft/BLR-2018-05-17_16-32-30_sideLeft/000426_r.xml,1,1,100466,1279,515,1660,777
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-08-24_13-02-50/0006056.xml,1,4,100116,1611,367,1919,690
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/rearNear/BLR-2018-05-07_12-36-24_rearNear/000714_r.xml,1,1,100056,1445,534,1823,797
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/BLR-2018-06-20-07-01-47_part_12/0000449.xml,1,3,100016,2,432,330,735
+vehicle fallback,ReviewLater,IDD_Detection/Annotations/highquality_16k/HYD-2018-06-11_13-44-41_frontNear_left/0004035.xml,1,1,99994,1,487,346,775
+vehicle fallback,water tanker,IDD_Detection/Annotations/highquality_16k/BLR-2018-05-11_13-42-30_sideRight_left/0005955.xml,1,1,99932,298,347,629,647
