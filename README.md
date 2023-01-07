@@ -1,3 +1,14 @@
+DISCONTINUATION OF PROJECT
+
+This project will no longer be maintained by Intel.
+
+Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
+
+Intel no longer accepts patches to this project.
+
+If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the open source software community, please create your own fork of this project.  
+
+Contact: webadmin@linux.intel.com
 # Driving Data Collection Reference kit
 
 Our motivation for a data collection framework is to enable a community based effort to collect driving data. Challenges in the ecosystem are high cost and steep learning curve of technical know-how. A low cost off-the-shelf solution used as-is falls short to meet reliability, quality, performance and realtime requirements. There are several systems for real time data collection systems are quite prohibitive for a developing economy. To address this challenge, we have created a recipe for a reference hardware and the associated software framework which is scalable in performance and minimizes initial capital investment. Also, the stack is designed to achieve maximum throughput possible in a commercial automotive grade system with real time constraints.
